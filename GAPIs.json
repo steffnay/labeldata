@@ -1,0 +1,5885 @@
+{
+	"Issues": [
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-dotnet",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: cleanup"
+			],
+			"LastGooglerUpdate": "2016-10-12T09:22:33Z",
+			"LastUserUpdate": "2016-11-25T11:49:06Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 93,
+			"URL": "https://github.com/googleapis/gax-dotnet/issues/93",
+			"Assignees": [
+				{
+					"ID": 17011,
+					"Login": "jskeet"
+				}
+			],
+			"Title": "Work out why we can't run the GAX tests with parallelism"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-dotnet",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2017-03-02T14:43:45Z",
+			"LastUserUpdate": "2017-03-02T14:43:45Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 145,
+			"URL": "https://github.com/googleapis/gax-dotnet/issues/145",
+			"Assignees": null,
+			"Title": "Verify proto behaviour when setting a field to an invalid value"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-dotnet",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2017-11-17T16:25:39Z",
+			"LastUserUpdate": "2017-11-23T22:09:33Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 224,
+			"URL": "https://github.com/googleapis/gax-dotnet/issues/224",
+			"Assignees": null,
+			"Title": "Can't get the current Project ID when running on my dev machine."
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-dotnet",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: question"
+			],
+			"LastGooglerUpdate": "2017-12-07T15:26:24Z",
+			"LastUserUpdate": "2018-06-04T10:45:57Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 227,
+			"URL": "https://github.com/googleapis/gax-dotnet/issues/227",
+			"Assignees": [
+				{
+					"ID": 316748,
+					"Login": "chrisdunelm"
+				}
+			],
+			"Title": "Examples for using server streaming retry?"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-dotnet",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"Type: bug",
+				"priority: p2",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-01-27T00:59:37Z",
+			"LastUserUpdate": "2018-07-12T21:16:59Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 18738361
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 18738361
+			},
+			"IssueID": 233,
+			"URL": "https://github.com/googleapis/gax-dotnet/issues/233",
+			"Assignees": [
+				{
+					"ID": 17011,
+					"Login": "jskeet"
+				}
+			],
+			"Title": "monitored resource type \"container\" or \"gke_container\"?"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-java",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2016-10-03T11:29:45Z",
+			"LastUserUpdate": "2017-03-10T21:53:23Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 116,
+			"URL": "https://github.com/googleapis/gax-java/issues/116",
+			"Assignees": null,
+			"Title": "ServiceApiSettings.applyToAllApiMethods always overrides retryable codes"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-java",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2017-01-25T22:43:53Z",
+			"LastUserUpdate": "2017-02-10T23:17:58Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 185,
+			"URL": "https://github.com/googleapis/gax-java/issues/185",
+			"Assignees": null,
+			"Title": "Put operation name in ApiException"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-java",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2017-04-19T14:22:25Z",
+			"LastUserUpdate": "2017-04-19T14:49:41Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 282,
+			"URL": "https://github.com/googleapis/gax-java/issues/282",
+			"Assignees": null,
+			"Title": "PropertiesProvider writes exceptions to System.err instead of a logger"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-java",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2017-04-22T01:53:54Z",
+			"LastUserUpdate": "2017-04-22T01:53:54Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 290,
+			"URL": "https://github.com/googleapis/gax-java/issues/290",
+			"Assignees": [
+				{
+					"ID": 13341017,
+					"Login": "garrettjonesgoogle"
+				}
+			],
+			"Title": "Fix javadocs so that both gax and gax-grpc docs are included"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-java",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: cleanup"
+			],
+			"LastGooglerUpdate": "2017-08-09T00:08:56Z",
+			"LastUserUpdate": "2017-08-09T00:08:56Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 348,
+			"URL": "https://github.com/googleapis/gax-java/issues/348",
+			"Assignees": null,
+			"Title": "Create code samples under samples/"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-java",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2017-09-01T21:53:29Z",
+			"LastUserUpdate": "2017-09-01T21:53:29Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 367,
+			"URL": "https://github.com/googleapis/gax-java/issues/367",
+			"Assignees": null,
+			"Title": "Switch to Apache 2.0 License"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-java",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2017-10-17T00:47:05Z",
+			"LastUserUpdate": "2018-08-17T17:49:51Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 383,
+			"URL": "https://github.com/googleapis/gax-java/issues/383",
+			"Assignees": null,
+			"Title": "Use exception translation in streaming methods"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-java",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: cleanup"
+			],
+			"LastGooglerUpdate": "2018-02-03T05:07:14Z",
+			"LastUserUpdate": "2018-02-20T15:57:27Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 474,
+			"URL": "https://github.com/googleapis/gax-java/issues/474",
+			"Assignees": null,
+			"Title": "Consider removing abstract toBuilder"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-java",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: bug",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-02-15T22:08:43Z",
+			"LastUserUpdate": "2018-02-15T22:08:43Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 17020615
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 17020615
+			},
+			"IssueID": 479,
+			"URL": "https://github.com/googleapis/gax-java/issues/479",
+			"Assignees": null,
+			"Title": "HttpJsonCallContext has incorrect equals \u0026 hashCode implementation"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-java",
+			"Priority": 1,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				":rotating_light:",
+				"priority: p1",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2018-02-17T16:50:35Z",
+			"LastUserUpdate": "2018-08-17T18:02:23Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 16866903
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 16866903
+			},
+			"IssueID": 484,
+			"URL": "https://github.com/googleapis/gax-java/issues/484",
+			"Assignees": [
+				{
+					"ID": 13341017,
+					"Login": "garrettjonesgoogle"
+				}
+			],
+			"Title": "UnaryCallable#call is missing stackframes of the call site"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-java",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2018-03-01T20:07:59Z",
+			"LastUserUpdate": "2018-03-01T20:07:59Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 488,
+			"URL": "https://github.com/googleapis/gax-java/issues/488",
+			"Assignees": [
+				{
+					"ID": 23526194,
+					"Login": "igorbernstein2"
+				}
+			],
+			"Title": "Figure out a better approach for overriding first() in ServerStreamingCallables"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-java",
+			"Priority": 2,
+			"Type": "",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: docs"
+			],
+			"LastGooglerUpdate": "2018-03-05T15:21:30Z",
+			"LastUserUpdate": "2018-03-05T15:21:30Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 489,
+			"URL": "https://github.com/googleapis/gax-java/issues/489",
+			"Assignees": null,
+			"Title": "Publish docs under latest/"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-java",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2018-04-11T21:34:26Z",
+			"LastUserUpdate": "2018-04-11T21:34:26Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 526,
+			"URL": "https://github.com/googleapis/gax-java/issues/526",
+			"Assignees": [
+				{
+					"ID": 1617025,
+					"Login": "pongad"
+				}
+			],
+			"Title": "GoogleCredentialsProvider is not immutable"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-java",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2018-05-07T21:54:44Z",
+			"LastUserUpdate": "2018-05-07T21:54:44Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 538,
+			"URL": "https://github.com/googleapis/gax-java/issues/538",
+			"Assignees": null,
+			"Title": "Unable to set thread-names to identify threads inside of the gax thread pools"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-java",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2018-05-31T01:46:08Z",
+			"LastUserUpdate": "2018-05-31T01:46:08Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 8021970
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 8021970
+			},
+			"IssueID": 543,
+			"URL": "https://github.com/googleapis/gax-java/issues/543",
+			"Assignees": null,
+			"Title": "BatchingSettings default value for elementCountThreshold"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-java",
+			"Priority": 2,
+			"Type": "",
+			"PriorityUnknown": true,
+			"Labels": [
+				"triage me",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-07-24T23:41:17Z",
+			"LastUserUpdate": "2018-07-24T23:41:17Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 561,
+			"URL": "https://github.com/googleapis/gax-java/issues/561",
+			"Assignees": null,
+			"Title": "Poor deadline semantics when retries are enabled"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-java",
+			"Priority": 2,
+			"Type": "",
+			"PriorityUnknown": true,
+			"Labels": [
+				"triage me"
+			],
+			"LastGooglerUpdate": "2018-08-29T20:21:11Z",
+			"LastUserUpdate": "2018-08-29T20:21:11Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 571,
+			"URL": "https://github.com/googleapis/gax-java/issues/571",
+			"Assignees": null,
+			"Title": "FR: provide a way to asynchronously fetch all of the entries in a paginated callable"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-nodejs",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2+",
+				":rotating_light:",
+				"type: cleanup"
+			],
+			"LastGooglerUpdate": "2016-04-28T21:33:26Z",
+			"LastUserUpdate": "2016-04-28T21:33:26Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 1,
+			"URL": "https://github.com/googleapis/gax-nodejs/issues/1",
+			"Assignees": null,
+			"Title": "introduce dummy time functions for testing retrying"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-nodejs",
+			"Priority": 1,
+			"Type": "FR",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p1",
+				":rotating_light:",
+				"type: enhancement"
+			],
+			"LastGooglerUpdate": "2016-10-14T23:41:33Z",
+			"LastUserUpdate": "2016-10-14T23:41:33Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 54,
+			"URL": "https://github.com/googleapis/gax-nodejs/issues/54",
+			"Assignees": [
+				{
+					"ID": 4015807,
+					"Login": "alexander-fenster"
+				}
+			],
+			"Title": "Manual edits on operations_api.js"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-nodejs",
+			"Priority": 1,
+			"Type": "FR",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p1",
+				"type: enhancement",
+				":rotating_light:",
+				"status: blocked"
+			],
+			"LastGooglerUpdate": "2016-11-09T20:52:16Z",
+			"LastUserUpdate": "2017-01-13T01:40:45Z",
+			"Blocked": true,
+			"ReleaseBlocking": false,
+			"IssueID": 65,
+			"URL": "https://github.com/googleapis/gax-nodejs/issues/65",
+			"Assignees": [
+				{
+					"ID": 4015807,
+					"Login": "alexander-fenster"
+				}
+			],
+			"Title": "error code handling and conversion"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-nodejs",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: cleanup"
+			],
+			"LastGooglerUpdate": "2016-11-21T18:49:47Z",
+			"LastUserUpdate": "2017-03-13T21:52:18Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 71,
+			"URL": "https://github.com/googleapis/gax-nodejs/issues/71",
+			"Assignees": [
+				{
+					"ID": 4346,
+					"Login": "lukesneeringer"
+				}
+			],
+			"Title": "google-cloud-node idioms, for consideration"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-nodejs",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": false,
+			"Labels": [
+				"type: enhancement",
+				"priority: p2+",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2016-12-21T19:42:26Z",
+			"LastUserUpdate": "2016-12-21T19:42:26Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 98,
+			"URL": "https://github.com/googleapis/gax-nodejs/issues/98",
+			"Assignees": null,
+			"Title": "client-side streaming: add 'response' event instead of assuming callback"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-nodejs",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": false,
+			"Labels": [
+				"type: enhancement",
+				"priority: p2+",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2017-05-05T17:22:28Z",
+			"LastUserUpdate": "2017-05-05T17:24:34Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 119,
+			"URL": "https://github.com/googleapis/gax-nodejs/issues/119",
+			"Assignees": [],
+			"Title": "Allow skipping auth"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-nodejs",
+			"Priority": 1,
+			"Type": "Cleanup",
+			"PriorityUnknown": false,
+			"Labels": [
+				"type: cleanup",
+				"priority: p1",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-07-20T15:30:09Z",
+			"LastUserUpdate": "2017-03-15T23:20:18Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 121,
+			"URL": "https://github.com/googleapis/gax-nodejs/issues/121",
+			"Assignees": [
+				{
+					"ID": 4015807,
+					"Login": "alexander-fenster"
+				}
+			],
+			"Title": "avoid unhandled promise rejection on wrongly initialized stub"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-nodejs",
+			"Priority": 1,
+			"Type": "Cleanup",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p1",
+				"type: cleanup",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2017-04-19T14:21:01Z",
+			"LastUserUpdate": "2017-04-19T14:21:01Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 133,
+			"URL": "https://github.com/googleapis/gax-nodejs/issues/133",
+			"Assignees": [
+				{
+					"ID": 4015807,
+					"Login": "alexander-fenster"
+				}
+			],
+			"Title": "Need regression tests for #132"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-nodejs",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: feature request",
+				"type: question",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2017-05-13T17:38:00Z",
+			"LastUserUpdate": "2017-05-15T14:30:48Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 134,
+			"URL": "https://github.com/googleapis/gax-nodejs/issues/134",
+			"Assignees": [
+				{
+					"ID": 8572251,
+					"Login": "landrito"
+				}
+			],
+			"Title": "Automatic project ID insertion"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-nodejs",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: cleanup",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2017-06-02T20:57:39Z",
+			"LastUserUpdate": "2017-06-02T20:57:39Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 138,
+			"URL": "https://github.com/googleapis/gax-nodejs/issues/138",
+			"Assignees": [],
+			"Title": "Confirm timeout override works with retry"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-nodejs",
+			"Priority": 1,
+			"Type": "FR",
+			"PriorityUnknown": false,
+			"Labels": [
+				"type: feature request",
+				"priority: p1",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2017-06-12T12:41:41Z",
+			"LastUserUpdate": "2018-07-23T17:24:02Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 141,
+			"URL": "https://github.com/googleapis/gax-nodejs/issues/141",
+			"Assignees": [
+				{
+					"ID": 4015807,
+					"Login": "alexander-fenster"
+				}
+			],
+			"Title": "@google-cloud/vision does not support proxy with HTTP(S)_PROXY"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-nodejs",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: question"
+			],
+			"LastGooglerUpdate": "2017-08-17T16:11:41Z",
+			"LastUserUpdate": "2017-08-17T16:11:41Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 145,
+			"URL": "https://github.com/googleapis/gax-nodejs/issues/145",
+			"Assignees": [
+				{
+					"ID": 4015807,
+					"Login": "alexander-fenster"
+				}
+			],
+			"Title": "should deadlines apply to streaming rpcs?"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-nodejs",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				":rotating_light:",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2017-10-01T02:57:35Z",
+			"LastUserUpdate": "2018-07-06T13:23:00Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 28926483
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 28926483
+			},
+			"IssueID": 149,
+			"URL": "https://github.com/googleapis/gax-nodejs/issues/149",
+			"Assignees": [
+				{
+					"ID": 4015807,
+					"Login": "alexander-fenster"
+				}
+			],
+			"Title": "Limits being called \"exceeded\" when being hit exactly"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-nodejs",
+			"Priority": 1,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p1",
+				"type: bug",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2017-11-17T19:22:19Z",
+			"LastUserUpdate": "2017-11-17T19:05:14Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 24806599
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 24891515
+			},
+			"IssueID": 157,
+			"URL": "https://github.com/googleapis/gax-nodejs/issues/157",
+			"Assignees": [
+				{
+					"ID": 4015807,
+					"Login": "alexander-fenster"
+				}
+			],
+			"Title": "Unhandled exception from gRPC for request size"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-nodejs",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": false,
+			"Labels": [
+				"type: enhancement",
+				"priority: p2+",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2017-11-29T22:05:43Z",
+			"LastUserUpdate": "2017-11-29T22:05:43Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 160,
+			"URL": "https://github.com/googleapis/gax-nodejs/issues/160",
+			"Assignees": [
+				{
+					"ID": 8572251,
+					"Login": "landrito"
+				}
+			],
+			"Title": "Add bundling config overridability to CallOptions"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-nodejs",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2017-12-01T13:43:47Z",
+			"LastUserUpdate": "2017-12-01T13:43:47Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 161,
+			"URL": "https://github.com/googleapis/gax-nodejs/issues/161",
+			"Assignees": null,
+			"Title": "Support Request Interceptors"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-nodejs",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": false,
+			"Labels": [
+				"core",
+				"perf",
+				"priority: p2",
+				":rotating_light:",
+				"type: enhancement"
+			],
+			"LastGooglerUpdate": "2017-12-19T18:14:00Z",
+			"LastUserUpdate": "2017-12-19T18:13:58Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 163,
+			"URL": "https://github.com/googleapis/gax-nodejs/issues/163",
+			"Assignees": null,
+			"Title": "Cloud Bigtable should have a gRPC channel pool"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-nodejs",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: bug",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-02-26T16:57:39Z",
+			"LastUserUpdate": "2018-06-01T17:32:57Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 16088879
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 16089084
+			},
+			"IssueID": 192,
+			"URL": "https://github.com/googleapis/gax-nodejs/issues/192",
+			"Assignees": [
+				{
+					"ID": 8572251,
+					"Login": "landrito"
+				}
+			],
+			"Title": "progressPercent is always 0"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-nodejs",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2018-06-13T18:38:47Z",
+			"LastUserUpdate": "2018-05-29T14:01:21Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 6838011
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 13487122
+			},
+			"IssueID": 208,
+			"URL": "https://github.com/googleapis/gax-nodejs/issues/208",
+			"Assignees": null,
+			"Title": "Misconfiguration of apiEndpoint, servicePath or port causes hang on query"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-nodejs",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"needs more info",
+				"type: question"
+			],
+			"LastGooglerUpdate": "2018-04-08T23:37:52Z",
+			"LastUserUpdate": "2018-06-05T16:12:20Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 210,
+			"URL": "https://github.com/googleapis/gax-nodejs/issues/210",
+			"Assignees": null,
+			"Title": "Missing *.proto files when directory has parentheses ( )"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-nodejs",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": true,
+			"Labels": [
+				"TypeScript",
+				"type: cleanup"
+			],
+			"LastGooglerUpdate": "2018-06-08T19:47:02Z",
+			"LastUserUpdate": "2018-06-08T19:47:02Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 242,
+			"URL": "https://github.com/googleapis/gax-nodejs/issues/242",
+			"Assignees": null,
+			"Title": "Enable noImplicitAny in the tsconfig"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-nodejs",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": true,
+			"Labels": [
+				"TypeScript",
+				"type: cleanup"
+			],
+			"LastGooglerUpdate": "2018-06-08T19:48:03Z",
+			"LastUserUpdate": "2018-06-08T19:48:03Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 243,
+			"URL": "https://github.com/googleapis/gax-nodejs/issues/243",
+			"Assignees": null,
+			"Title": "Enable noImplicitThis in the tsconfig"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-nodejs",
+			"Priority": 1,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p1",
+				"type: bug",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-06-13T18:49:24Z",
+			"LastUserUpdate": "2018-06-13T18:47:37Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 6837374
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 6837481
+			},
+			"IssueID": 252,
+			"URL": "https://github.com/googleapis/gax-nodejs/issues/252",
+			"Assignees": [
+				{
+					"ID": 723048,
+					"Login": "stephenplusplus"
+				}
+			],
+			"Title": "Invalid JWT causes hang on unrejected promise"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-nodejs",
+			"Priority": 1,
+			"Type": "FR",
+			"PriorityUnknown": false,
+			"Labels": [
+				"type: docs",
+				"type: feature request",
+				":rotating_light:",
+				"priority: p1"
+			],
+			"LastGooglerUpdate": "2018-06-21T17:01:34Z",
+			"LastUserUpdate": "2018-06-21T17:01:43Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 256,
+			"URL": "https://github.com/googleapis/gax-nodejs/issues/256",
+			"Assignees": [
+				{
+					"ID": 4015807,
+					"Login": "alexander-fenster"
+				}
+			],
+			"Title": "Logging: How to change BundleOptions"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-nodejs",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2018-08-09T21:49:36Z",
+			"LastUserUpdate": "2018-08-09T21:49:36Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 286,
+			"URL": "https://github.com/googleapis/gax-nodejs/issues/286",
+			"Assignees": [
+				{
+					"ID": 4015807,
+					"Login": "alexander-fenster"
+				}
+			],
+			"Title": "Need to stop using grpc.load"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-nodejs",
+			"Priority": 2,
+			"Type": "",
+			"PriorityUnknown": true,
+			"Labels": [
+				"triage me",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-08-14T17:06:27Z",
+			"LastUserUpdate": "2018-08-14T17:06:27Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 287,
+			"URL": "https://github.com/googleapis/gax-nodejs/issues/287",
+			"Assignees": null,
+			"Title": "Set default gRPC parameters"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-nodejs",
+			"Priority": 2,
+			"Type": "",
+			"PriorityUnknown": true,
+			"Labels": [
+				":rotating_light:",
+				"triage me"
+			],
+			"LastGooglerUpdate": "2018-08-17T13:19:00Z",
+			"LastUserUpdate": "2018-08-17T13:19:00Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 288,
+			"URL": "https://github.com/googleapis/gax-nodejs/issues/288",
+			"Assignees": null,
+			"Title": "Upgrade gRPC version - Getting segfaults in node cluster"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-php",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2017-03-31T15:51:18Z",
+			"LastUserUpdate": "2017-06-15T21:19:53Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 62,
+			"URL": "https://github.com/googleapis/gax-php/issues/62",
+			"Assignees": [
+				{
+					"ID": 14846209,
+					"Login": "michaelbausor"
+				}
+			],
+			"Title": "Retry stream creation for streaming methods"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-php",
+			"Priority": 2,
+			"Type": "",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				":rotating_light:",
+				"type: docs"
+			],
+			"LastGooglerUpdate": "2017-04-26T20:46:25Z",
+			"LastUserUpdate": "2017-04-26T20:46:25Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 63,
+			"URL": "https://github.com/googleapis/gax-php/issues/63",
+			"Assignees": [
+				{
+					"ID": 14846209,
+					"Login": "michaelbausor"
+				}
+			],
+			"Title": "Update tags in all doc blocks"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-php",
+			"Priority": 2,
+			"Type": "",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-01-26T21:27:34Z",
+			"LastUserUpdate": "2018-01-26T21:15:45Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 144,
+			"URL": "https://github.com/googleapis/gax-php/issues/144",
+			"Assignees": null,
+			"Title": "Rename Repository and Composer Package"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-php",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2018-03-22T19:21:49Z",
+			"LastUserUpdate": "2018-03-23T16:04:57Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 153,
+			"URL": "https://github.com/googleapis/gax-php/issues/153",
+			"Assignees": null,
+			"Title": "Make PagedListResponse Iterable"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-php",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2018-04-17T16:18:43Z",
+			"LastUserUpdate": "2018-04-17T16:18:43Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 168,
+			"URL": "https://github.com/googleapis/gax-php/issues/168",
+			"Assignees": null,
+			"Title": "Make validation of REST bindings optional"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-php",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2018-04-23T01:25:59Z",
+			"LastUserUpdate": "2018-08-14T15:59:25Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 169,
+			"URL": "https://github.com/googleapis/gax-php/issues/169",
+			"Assignees": null,
+			"Title": "Pass HTTP client construction options through REST transport constructor"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-php",
+			"Priority": 2,
+			"Type": "",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2"
+			],
+			"LastGooglerUpdate": "2018-04-30T20:50:14Z",
+			"LastUserUpdate": "2018-04-30T20:50:14Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 172,
+			"URL": "https://github.com/googleapis/gax-php/issues/172",
+			"Assignees": null,
+			"Title": "Break googleapis common protos into a separate repo and package"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-php",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: cleanup"
+			],
+			"LastGooglerUpdate": "2018-08-10T18:29:44Z",
+			"LastUserUpdate": "2018-08-10T18:29:44Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 204,
+			"URL": "https://github.com/googleapis/gax-php/issues/204",
+			"Assignees": [
+				{
+					"ID": 14846209,
+					"Login": "michaelbausor"
+				}
+			],
+			"Title": "Update license files"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-php",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: cleanup"
+			],
+			"LastGooglerUpdate": "2018-08-10T20:38:18Z",
+			"LastUserUpdate": "2018-08-10T20:38:18Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 205,
+			"URL": "https://github.com/googleapis/gax-php/issues/205",
+			"Assignees": [
+				{
+					"ID": 14846209,
+					"Login": "michaelbausor"
+				}
+			],
+			"Title": "Address frequent travis build failures"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-ruby",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": false,
+			"Labels": [
+				":rotating_light:",
+				"priority: p2",
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2017-05-16T15:52:16Z",
+			"LastUserUpdate": "2018-06-05T16:32:44Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 69,
+			"URL": "https://github.com/googleapis/gax-ruby/issues/69",
+			"Assignees": [
+				{
+					"ID": 4023128,
+					"Login": "jbolinger"
+				}
+			],
+			"Title": "Error messages for Ruby version are confusing"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-ruby",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: feature request",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2017-06-02T18:00:20Z",
+			"LastUserUpdate": "2017-06-02T18:46:23Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 70,
+			"URL": "https://github.com/googleapis/gax-ruby/issues/70",
+			"Assignees": [
+				{
+					"ID": 8572251,
+					"Login": "landrito"
+				}
+			],
+			"Title": "gRPC error messages are missing metadata"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-ruby",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: bug",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2017-06-02T18:52:59Z",
+			"LastUserUpdate": "2018-04-30T19:04:56Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 39323559
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 39323559
+			},
+			"IssueID": 71,
+			"URL": "https://github.com/googleapis/gax-ruby/issues/71",
+			"Assignees": [],
+			"Title": "Timeout parameter doesn't work when retry is configured"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-ruby",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: feature request",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2017-11-28T22:57:35Z",
+			"LastUserUpdate": "2017-11-28T22:57:35Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 110,
+			"URL": "https://github.com/googleapis/gax-ruby/issues/110",
+			"Assignees": [
+				{
+					"ID": 4023128,
+					"Login": "jbolinger"
+				}
+			],
+			"Title": "Investigate removing some of proto coercion logic"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-ruby",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: bug",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-05-04T23:16:24Z",
+			"LastUserUpdate": "2018-05-07T16:44:57Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 10277354
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 16065915
+			},
+			"IssueID": 119,
+			"URL": "https://github.com/googleapis/gax-ruby/issues/119",
+			"Assignees": [
+				{
+					"ID": 4023128,
+					"Login": "jbolinger"
+				}
+			],
+			"Title": "Investigate Path template performance"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-ruby",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2018-05-04T23:16:53Z",
+			"LastUserUpdate": "2018-05-04T23:35:38Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 125,
+			"URL": "https://github.com/googleapis/gax-ruby/issues/125",
+			"Assignees": null,
+			"Title": "GAPIC helper methods are inconvenient"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-ruby",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2018-05-04T23:24:23Z",
+			"LastUserUpdate": "2018-05-04T23:43:50Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 10276875
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 10276875
+			},
+			"IssueID": 126,
+			"URL": "https://github.com/googleapis/gax-ruby/issues/126",
+			"Assignees": [
+				{
+					"ID": 4023128,
+					"Login": "jbolinger"
+				}
+			],
+			"Title": "PathTemplate#match returning different params that given to PathTemplate#render"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-bigquery-data-transfer",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: bug",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2017-12-27T22:59:46Z",
+			"LastUserUpdate": "2018-01-16T23:48:04Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 21337552
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 21337552
+			},
+			"IssueID": 4,
+			"URL": "https://github.com/googleapis/nodejs-bigquery-data-transfer/issues/4",
+			"Assignees": null,
+			"Title": "Quickstart sample should use full package name in import"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-bigtable",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": false,
+			"Labels": [
+				"docs",
+				"type: enhancement",
+				"priority: p2"
+			],
+			"LastGooglerUpdate": "2018-04-20T14:14:03Z",
+			"LastUserUpdate": "2018-04-23T15:39:02Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 91,
+			"URL": "https://github.com/googleapis/nodejs-bigtable/issues/91",
+			"Assignees": null,
+			"Title": "getTables returns empty metadata.columnFamilies object"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-bigtable",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"docs",
+				"priority: p2",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2018-05-03T18:50:56Z",
+			"LastUserUpdate": "2018-08-01T11:10:09Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 10379682
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 10380974
+			},
+			"IssueID": 118,
+			"URL": "https://github.com/googleapis/nodejs-bigtable/issues/118",
+			"Assignees": null,
+			"Title": "Incorrect hyperlinks in documentation"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-bigtable",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: bug",
+				"triage me",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-05-07T06:50:43Z",
+			"LastUserUpdate": "2018-08-24T13:04:26Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 10077295
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 10077295
+			},
+			"IssueID": 128,
+			"URL": "https://github.com/googleapis/nodejs-bigtable/issues/128",
+			"Assignees": [
+				{
+					"ID": 1187604,
+					"Login": "kolodny"
+				}
+			],
+			"Title": "Filter on binary data"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-bigtable",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": false,
+			"Labels": [
+				"docs",
+				"priority: p2",
+				"type: cleanup"
+			],
+			"LastGooglerUpdate": "2018-06-01T02:38:44Z",
+			"LastUserUpdate": "2018-06-21T15:36:47Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 157,
+			"URL": "https://github.com/googleapis/nodejs-bigtable/issues/157",
+			"Assignees": [
+				{
+					"ID": 99305,
+					"Login": "sduskis"
+				}
+			],
+			"Title": "@example Comments should refer to sample code"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-bigtable",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2018-07-30T17:37:13Z",
+			"LastUserUpdate": "2018-07-30T17:37:13Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 260,
+			"URL": "https://github.com/googleapis/nodejs-bigtable/issues/260",
+			"Assignees": null,
+			"Title": "Add OpenCensus sample"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-bigtable",
+			"Priority": 2,
+			"Type": "",
+			"PriorityUnknown": true,
+			"Labels": [
+				"triage me",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-08-21T08:28:51Z",
+			"LastUserUpdate": "2018-08-22T11:09:19Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 278,
+			"URL": "https://github.com/googleapis/nodejs-bigtable/issues/278",
+			"Assignees": null,
+			"Title": "Cannot use 'prefix' and 'start' together"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-bigtable",
+			"Priority": 2,
+			"Type": "",
+			"PriorityUnknown": true,
+			"Labels": null,
+			"LastGooglerUpdate": "2018-08-31T10:58:58Z",
+			"LastUserUpdate": "2018-08-31T15:34:41Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 291,
+			"URL": "https://github.com/googleapis/nodejs-bigtable/issues/291",
+			"Assignees": null,
+			"Title": "INVALID_ARGUMENT: Too many mutations: 120000 provided; limit 100000"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-cloud-container",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: question"
+			],
+			"LastGooglerUpdate": "2018-06-23T23:49:21Z",
+			"LastUserUpdate": "2018-08-16T18:02:51Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 35,
+			"URL": "https://github.com/googleapis/nodejs-cloud-container/issues/35",
+			"Assignees": [
+				{
+					"ID": 101553,
+					"Login": "fhinkel"
+				}
+			],
+			"Title": "How to call a cluster API using @google-cloud/container?"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-common",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": false,
+			"Labels": [
+				"type: cleanup",
+				":rotating_light:",
+				"help wanted",
+				"priority: p2"
+			],
+			"LastGooglerUpdate": "2017-12-13T20:06:10Z",
+			"LastUserUpdate": "2018-07-17T16:51:55Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 10,
+			"URL": "https://github.com/googleapis/nodejs-common/issues/10",
+			"Assignees": null,
+			"Title": "util.decorateRequest mechanism may edit user provided strings"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-common",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"TypeScript",
+				"type: enhancement",
+				"Breaking Change"
+			],
+			"LastGooglerUpdate": "2018-04-07T02:50:57Z",
+			"LastUserUpdate": "2018-04-07T02:50:57Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 90,
+			"URL": "https://github.com/googleapis/nodejs-common/issues/90",
+			"Assignees": null,
+			"Title": "Add proper overloads for all promisified functions"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-common",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"Breaking Change",
+				"type: enhancement"
+			],
+			"LastGooglerUpdate": "2018-04-18T17:37:27Z",
+			"LastUserUpdate": "2018-04-18T18:50:21Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 107,
+			"URL": "https://github.com/googleapis/nodejs-common/issues/107",
+			"Assignees": null,
+			"Title": "Drop Promise property"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-common",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: cleanup",
+				"status: blocked"
+			],
+			"LastGooglerUpdate": "2018-06-07T05:47:54Z",
+			"LastUserUpdate": "2018-06-08T23:10:21Z",
+			"Blocked": true,
+			"ReleaseBlocking": false,
+			"IssueID": 163,
+			"URL": "https://github.com/googleapis/nodejs-common/issues/163",
+			"Assignees": null,
+			"Title": "Migrate to @sindresorhus/is"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-common",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2018-06-25T20:43:36Z",
+			"LastUserUpdate": "2018-07-30T22:33:10Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 5793722
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 5793722
+			},
+			"IssueID": 172,
+			"URL": "https://github.com/googleapis/nodejs-common/issues/172",
+			"Assignees": [
+				{
+					"ID": 534619,
+					"Login": "JustinBeckwith"
+				}
+			],
+			"Title": "Response is null when there is an error. This breaks @google-cloud/profiler"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-common",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: cleanup"
+			],
+			"LastGooglerUpdate": "2018-07-05T14:50:12Z",
+			"LastUserUpdate": "2018-08-23T09:46:05Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 187,
+			"URL": "https://github.com/googleapis/nodejs-common/issues/187",
+			"Assignees": null,
+			"Title": "Write system-tests"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-common",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: cleanup",
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2018-08-27T16:53:32Z",
+			"LastUserUpdate": "2018-08-27T16:53:32Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 222,
+			"URL": "https://github.com/googleapis/nodejs-common/issues/222",
+			"Assignees": [
+				{
+					"ID": 101553,
+					"Login": "fhinkel"
+				}
+			],
+			"Title": "ServiceObject should inherit parent's requestModule"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-common-grpc",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": true,
+			"Labels": [
+				"TypeScript",
+				"type: cleanup"
+			],
+			"LastGooglerUpdate": "2018-05-22T15:39:03Z",
+			"LastUserUpdate": "2018-05-22T15:39:03Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 54,
+			"URL": "https://github.com/googleapis/nodejs-common-grpc/issues/54",
+			"Assignees": null,
+			"Title": "Enable noImplicitAny in tsconfig"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-common-grpc",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: question"
+			],
+			"LastGooglerUpdate": "2018-06-07T21:16:15Z",
+			"LastUserUpdate": "2018-06-07T21:16:15Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 67,
+			"URL": "https://github.com/googleapis/nodejs-common-grpc/issues/67",
+			"Assignees": null,
+			"Title": "Start testing gRPC-js"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-compute",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: enhancement"
+			],
+			"LastGooglerUpdate": "2017-12-19T18:19:59Z",
+			"LastUserUpdate": "2017-12-19T18:19:59Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 28,
+			"URL": "https://github.com/googleapis/nodejs-compute/issues/28",
+			"Assignees": null,
+			"Title": "Implement IAM API"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-compute",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: enhancement",
+				"status: blocked"
+			],
+			"LastGooglerUpdate": "2018-03-15T15:27:24Z",
+			"LastUserUpdate": "2018-03-15T12:29:40Z",
+			"Blocked": true,
+			"ReleaseBlocking": false,
+			"IssueID": 53,
+			"URL": "https://github.com/googleapis/nodejs-compute/issues/53",
+			"Assignees": null,
+			"Title": "Interest in supporting custom endpoints"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-compute",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: enhancement"
+			],
+			"LastGooglerUpdate": "2018-04-13T17:40:35Z",
+			"LastUserUpdate": "2018-04-13T20:34:42Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 65,
+			"URL": "https://github.com/googleapis/nodejs-compute/issues/65",
+			"Assignees": null,
+			"Title": "Retry option for lower level Errors (e.g. ECONNRESET or ETIMEDOUT)"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-compute",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: question"
+			],
+			"LastGooglerUpdate": "2018-05-09T20:42:45Z",
+			"LastUserUpdate": "2018-05-09T20:42:45Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 81,
+			"URL": "https://github.com/googleapis/nodejs-compute/issues/81",
+			"Assignees": [
+				{
+					"ID": 723048,
+					"Login": "stephenplusplus"
+				}
+			],
+			"Title": "operation.promise() should be explained in the Client API Reference"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-compute",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: question"
+			],
+			"LastGooglerUpdate": "2018-05-12T23:30:14Z",
+			"LastUserUpdate": "2018-05-17T03:35:20Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 83,
+			"URL": "https://github.com/googleapis/nodejs-compute/issues/83",
+			"Assignees": [
+				{
+					"ID": 101553,
+					"Login": "fhinkel"
+				}
+			],
+			"Title": "Improve the documentation"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-compute",
+			"Priority": 1,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				":rotating_light:",
+				"nightly-failure",
+				"priority: p1",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2018-05-23T16:09:02Z",
+			"LastUserUpdate": "2018-08-23T10:12:31Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 8661396
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 8661396
+			},
+			"IssueID": 90,
+			"URL": "https://github.com/googleapis/nodejs-compute/issues/90",
+			"Assignees": [
+				{
+					"ID": 723048,
+					"Login": "stephenplusplus"
+				}
+			],
+			"Title": "CI flakes on system-test cleanup"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-compute",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": true,
+			"Labels": [
+				"TypeScript",
+				"type: cleanup"
+			],
+			"LastGooglerUpdate": "2018-06-12T04:32:38Z",
+			"LastUserUpdate": "2018-06-12T04:32:38Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 98,
+			"URL": "https://github.com/googleapis/nodejs-compute/issues/98",
+			"Assignees": null,
+			"Title": "Switch to ES classes"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-compute",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: enhancement"
+			],
+			"LastGooglerUpdate": "2018-06-13T15:22:28Z",
+			"LastUserUpdate": "2018-06-13T15:19:58Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 103,
+			"URL": "https://github.com/googleapis/nodejs-compute/issues/103",
+			"Assignees": null,
+			"Title": "Bindings for Instance Groupe Managers?"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-compute",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"type: bug",
+				"type: docs",
+				"priority: p2"
+			],
+			"LastGooglerUpdate": "2018-06-21T15:45:25Z",
+			"LastUserUpdate": "2018-06-22T06:51:50Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 6157213
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 6159743
+			},
+			"IssueID": 107,
+			"URL": "https://github.com/googleapis/nodejs-compute/issues/107",
+			"Assignees": null,
+			"Title": "Bug: Attaching existing disk when creating a new VM"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-compute",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: cleanup"
+			],
+			"LastGooglerUpdate": "2018-06-21T15:17:05Z",
+			"LastUserUpdate": "2018-06-21T15:17:05Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 108,
+			"URL": "https://github.com/googleapis/nodejs-compute/issues/108",
+			"Assignees": null,
+			"Title": "Upgrade to latest @google-cloud/common"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-compute",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2018-07-12T15:03:38Z",
+			"LastUserUpdate": "2018-07-12T14:47:12Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 114,
+			"URL": "https://github.com/googleapis/nodejs-compute/issues/114",
+			"Assignees": null,
+			"Title": "Support for instance templates when creating a new compute engine instance"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-compute",
+			"Priority": 1,
+			"Type": "FR",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p1",
+				"type: feature request",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-06-25T19:21:30Z",
+			"LastUserUpdate": "2018-06-25T19:21:30Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 116,
+			"URL": "https://github.com/googleapis/nodejs-compute/issues/116",
+			"Assignees": [
+				{
+					"ID": 4001432,
+					"Login": "kinwa91"
+				}
+			],
+			"Title": "setLabels method feature request"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-compute",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request",
+				"help wanted"
+			],
+			"LastGooglerUpdate": "2018-08-29T12:57:29Z",
+			"LastUserUpdate": "2018-07-09T15:05:47Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 125,
+			"URL": "https://github.com/googleapis/nodejs-compute/issues/125",
+			"Assignees": null,
+			"Title": "Allow update of the firewall rule for non-default network."
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-dataproc",
+			"Priority": 1,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p1",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2018-08-30T20:17:00Z",
+			"LastUserUpdate": "2018-08-30T20:17:00Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 92918
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 92918
+			},
+			"IssueID": 71,
+			"URL": "https://github.com/googleapis/nodejs-dataproc/issues/71",
+			"Assignees": [
+				{
+					"ID": 4001432,
+					"Login": "kinwa91"
+				}
+			],
+			"Title": "Fix the nightly tests"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-datastore",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				":rotating_light:",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2017-12-16T03:53:54Z",
+			"LastUserUpdate": "2017-12-16T03:53:53Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 22356704
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 22356705
+			},
+			"IssueID": 8,
+			"URL": "https://github.com/googleapis/nodejs-datastore/issues/8",
+			"Assignees": [
+				{
+					"ID": 4346,
+					"Login": "lukesneeringer"
+				}
+			],
+			"Title": "Transaction error in datastore returning odd and not friendly response"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-datastore",
+			"Priority": 1,
+			"Type": "FR",
+			"PriorityUnknown": false,
+			"Labels": [
+				"status: blocked",
+				"perf",
+				"priority: p1",
+				"type: enhancement",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-04-17T17:29:45Z",
+			"LastUserUpdate": "2018-08-10T20:54:12Z",
+			"Blocked": true,
+			"ReleaseBlocking": false,
+			"IssueID": 9,
+			"URL": "https://github.com/googleapis/nodejs-datastore/issues/9",
+			"Assignees": [
+				{
+					"ID": 101553,
+					"Login": "fhinkel"
+				}
+			],
+			"Title": "Improve cold start of Cloud Datastore for Cloud Functions"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-datastore",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: enhancement"
+			],
+			"LastGooglerUpdate": "2017-12-16T03:56:32Z",
+			"LastUserUpdate": "2018-05-02T11:01:56Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 10,
+			"URL": "https://github.com/googleapis/nodejs-datastore/issues/10",
+			"Assignees": null,
+			"Title": "datastore.save() with upsert should allow get-or-create"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-datastore",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": false,
+			"Labels": [
+				":rotating_light:",
+				"type: enhancement",
+				"docs",
+				"priority: p2"
+			],
+			"LastGooglerUpdate": "2017-12-16T03:57:01Z",
+			"LastUserUpdate": "2018-04-03T22:46:26Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 11,
+			"URL": "https://github.com/googleapis/nodejs-datastore/issues/11",
+			"Assignees": null,
+			"Title": "datastore: document unit testing with the emulator"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-datastore",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				":rotating_light:",
+				"type: enhancement"
+			],
+			"LastGooglerUpdate": "2017-12-16T03:57:31Z",
+			"LastUserUpdate": "2018-06-08T07:13:50Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 12,
+			"URL": "https://github.com/googleapis/nodejs-datastore/issues/12",
+			"Assignees": null,
+			"Title": "[datastore] new excludeFromIndexes syntax should allow for a catch-all on object properties"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-datastore",
+			"Priority": 1,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p1",
+				"type: bug",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-06-22T15:51:35Z",
+			"LastUserUpdate": "2018-08-05T23:18:20Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 6070443
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 20663959
+			},
+			"IssueID": 39,
+			"URL": "https://github.com/googleapis/nodejs-datastore/issues/39",
+			"Assignees": [
+				{
+					"ID": 723048,
+					"Login": "stephenplusplus"
+				}
+			],
+			"Title": "Error: Unexpected error while acquiring application default credentials: read ECONNRESET"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-datastore",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: question",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-01-24T15:23:16Z",
+			"LastUserUpdate": "2018-01-24T15:17:20Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 44,
+			"URL": "https://github.com/googleapis/nodejs-datastore/issues/44",
+			"Assignees": null,
+			"Title": "Properties excluded from indexes are not retained on cloud datastore update"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-datastore",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: question",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-01-31T18:10:56Z",
+			"LastUserUpdate": "2018-01-29T05:52:23Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 46,
+			"URL": "https://github.com/googleapis/nodejs-datastore/issues/46",
+			"Assignees": null,
+			"Title": "nextPageCursor in runQuery changes every time when last entity gets modified"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-datastore",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: enhancement",
+				"help wanted"
+			],
+			"LastGooglerUpdate": "2018-02-21T16:37:02Z",
+			"LastUserUpdate": "2018-02-22T09:54:20Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 59,
+			"URL": "https://github.com/googleapis/nodejs-datastore/issues/59",
+			"Assignees": null,
+			"Title": "Key paths are ambiguous, there is no trivial way to serialize a unique entity key!"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-datastore",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2018-03-27T01:07:50Z",
+			"LastUserUpdate": "2018-03-27T08:34:56Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 13640268
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 13697857
+			},
+			"IssueID": 77,
+			"URL": "https://github.com/googleapis/nodejs-datastore/issues/77",
+			"Assignees": null,
+			"Title": "transaction Error: entity is too big"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-datastore",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"docs",
+				"type: enhancement"
+			],
+			"LastGooglerUpdate": "2018-05-02T14:22:14Z",
+			"LastUserUpdate": "2018-05-02T23:58:57Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 83,
+			"URL": "https://github.com/googleapis/nodejs-datastore/issues/83",
+			"Assignees": null,
+			"Title": "Improve the Error handling sample and add more documentation"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-datastore",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"needs more info",
+				"type: question"
+			],
+			"LastGooglerUpdate": "2018-05-31T21:08:01Z",
+			"LastUserUpdate": "2018-06-01T12:49:41Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 95,
+			"URL": "https://github.com/googleapis/nodejs-datastore/issues/95",
+			"Assignees": null,
+			"Title": "Errors importing lots of entities to DataStore using the emulator"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-datastore",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request",
+				"TypeScript",
+				"status: blocked"
+			],
+			"LastGooglerUpdate": "2018-06-09T19:35:46Z",
+			"LastUserUpdate": "2018-06-09T19:35:46Z",
+			"Blocked": true,
+			"ReleaseBlocking": false,
+			"IssueID": 103,
+			"URL": "https://github.com/googleapis/nodejs-datastore/issues/103",
+			"Assignees": null,
+			"Title": "Convert to TypeScript"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-datastore",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: question"
+			],
+			"LastGooglerUpdate": "2018-06-12T14:03:49Z",
+			"LastUserUpdate": "2018-06-12T14:23:40Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 105,
+			"URL": "https://github.com/googleapis/nodejs-datastore/issues/105",
+			"Assignees": null,
+			"Title": "How to generate URL-safe key?"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-datastore",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: question"
+			],
+			"LastGooglerUpdate": "2018-06-15T18:18:27Z",
+			"LastUserUpdate": "2018-08-14T23:46:43Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 109,
+			"URL": "https://github.com/googleapis/nodejs-datastore/issues/109",
+			"Assignees": null,
+			"Title": "Getting a faster count of total entities"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-datastore",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2018-07-30T16:22:21Z",
+			"LastUserUpdate": "2018-07-30T16:41:46Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 2785397
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 3168179
+			},
+			"IssueID": 147,
+			"URL": "https://github.com/googleapis/nodejs-datastore/issues/147",
+			"Assignees": null,
+			"Title": "Inconsistent processing of large numbers from other languages."
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-datastore",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2018-07-29T08:02:38Z",
+			"LastUserUpdate": "2018-07-29T08:02:38Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 152,
+			"URL": "https://github.com/googleapis/nodejs-datastore/issues/152",
+			"Assignees": null,
+			"Title": "Query datastore entity by url-safe key or decode it to a searchable key"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-datastore",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: question"
+			],
+			"LastGooglerUpdate": "2018-08-03T15:10:14Z",
+			"LastUserUpdate": "2018-08-03T15:10:14Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 156,
+			"URL": "https://github.com/googleapis/nodejs-datastore/issues/156",
+			"Assignees": null,
+			"Title": "How to query an embedded entity (array of objects)?"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-datastore",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: question"
+			],
+			"LastGooglerUpdate": "2018-08-29T12:59:05Z",
+			"LastUserUpdate": "2018-08-29T12:59:05Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 183,
+			"URL": "https://github.com/googleapis/nodejs-datastore/issues/183",
+			"Assignees": [
+				{
+					"ID": 723048,
+					"Login": "stephenplusplus"
+				}
+			],
+			"Title": "How to retrieve a list of Indexed properties"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-dlp",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: enhancement"
+			],
+			"LastGooglerUpdate": "2017-12-11T20:07:38Z",
+			"LastUserUpdate": "2017-10-27T21:55:15Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 3,
+			"URL": "https://github.com/googleapis/nodejs-dlp/issues/3",
+			"Assignees": [
+				{
+					"ID": 8572251,
+					"Login": "landrito"
+				}
+			],
+			"Title": "DLP: Check quasi_id types"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-dlp",
+			"Priority": 1,
+			"Type": "",
+			"PriorityUnknown": false,
+			"Labels": [
+				"nightly-failure",
+				"priority: p1",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-08-24T18:04:36Z",
+			"LastUserUpdate": "2018-08-29T22:16:38Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 52,
+			"URL": "https://github.com/googleapis/nodejs-dlp/issues/52",
+			"Assignees": [
+				{
+					"ID": 4001432,
+					"Login": "kinwa91"
+				}
+			],
+			"Title": "investigate nightly and sample test failures"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-dlp",
+			"Priority": 2,
+			"Type": "",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2"
+			],
+			"LastGooglerUpdate": "2018-07-03T22:55:03Z",
+			"LastUserUpdate": "2018-07-03T22:55:03Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 79,
+			"URL": "https://github.com/googleapis/nodejs-dlp/issues/79",
+			"Assignees": null,
+			"Title": "Consider refactoring redact system tests to use sub-image comparison"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-dns",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: enhancement"
+			],
+			"LastGooglerUpdate": "2017-10-24T12:00:30Z",
+			"LastUserUpdate": "2017-10-24T12:00:29Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 10,
+			"URL": "https://github.com/googleapis/nodejs-dns/issues/10",
+			"Assignees": null,
+			"Title": "Cloud DNS polling on change status? (change is almost like an LRO)"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-dns",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: cleanup",
+				"TypeScript"
+			],
+			"LastGooglerUpdate": "2018-06-10T01:46:46Z",
+			"LastUserUpdate": "2018-06-10T01:46:46Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 47,
+			"URL": "https://github.com/googleapis/nodejs-dns/issues/47",
+			"Assignees": null,
+			"Title": "Enable noImplicitAny in tsconfig"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-dns",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": true,
+			"Labels": [
+				"TypeScript",
+				"type: cleanup"
+			],
+			"LastGooglerUpdate": "2018-06-10T01:47:44Z",
+			"LastUserUpdate": "2018-06-10T01:47:44Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 48,
+			"URL": "https://github.com/googleapis/nodejs-dns/issues/48",
+			"Assignees": null,
+			"Title": "Enable noImplicitThis in the tsconfig"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-dns",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": true,
+			"Labels": [
+				"TypeScript",
+				"type: cleanup"
+			],
+			"LastGooglerUpdate": "2018-06-10T01:48:07Z",
+			"LastUserUpdate": "2018-06-10T01:48:07Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 49,
+			"URL": "https://github.com/googleapis/nodejs-dns/issues/49",
+			"Assignees": null,
+			"Title": "Use arrow functions"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-dns",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": true,
+			"Labels": [
+				"TypeScript",
+				"type: cleanup"
+			],
+			"LastGooglerUpdate": "2018-06-10T01:48:53Z",
+			"LastUserUpdate": "2018-06-10T01:48:53Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 50,
+			"URL": "https://github.com/googleapis/nodejs-dns/issues/50",
+			"Assignees": null,
+			"Title": "Add `gts check` to post-test"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-dns",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: cleanup",
+				"TypeScript"
+			],
+			"LastGooglerUpdate": "2018-06-10T01:49:42Z",
+			"LastUserUpdate": "2018-06-10T01:49:42Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 51,
+			"URL": "https://github.com/googleapis/nodejs-dns/issues/51",
+			"Assignees": null,
+			"Title": "Switch to ES classes"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-error-reporting",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2017-12-18T18:48:35Z",
+			"LastUserUpdate": "2017-12-18T18:48:35Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 11,
+			"URL": "https://github.com/googleapis/nodejs-error-reporting/issues/11",
+			"Assignees": null,
+			"Title": "error-reporting: Users can choose to report errors via Logs instead of using the report API"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-error-reporting",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2017-12-18T18:49:10Z",
+			"LastUserUpdate": "2017-12-18T18:49:10Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 15,
+			"URL": "https://github.com/googleapis/nodejs-error-reporting/issues/15",
+			"Assignees": [],
+			"Title": "Error Reporting could send reported errors to console when in dev mode"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-error-reporting",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: cleanup"
+			],
+			"LastGooglerUpdate": "2018-01-11T00:16:23Z",
+			"LastUserUpdate": "2018-01-11T00:16:23Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 35,
+			"URL": "https://github.com/googleapis/nodejs-error-reporting/issues/35",
+			"Assignees": null,
+			"Title": "Update type definitions for the `reportManualError` function"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-error-reporting",
+			"Priority": 2,
+			"Type": "Process",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: process"
+			],
+			"LastGooglerUpdate": "2018-02-21T21:04:55Z",
+			"LastUserUpdate": "2018-02-21T21:04:55Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 63,
+			"URL": "https://github.com/googleapis/nodejs-error-reporting/issues/63",
+			"Assignees": null,
+			"Title": "Determine if escape-regexp-component@1.0.2 can be used"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-error-reporting",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: question"
+			],
+			"LastGooglerUpdate": "2018-02-22T17:28:04Z",
+			"LastUserUpdate": "2018-02-22T19:01:21Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 67,
+			"URL": "https://github.com/googleapis/nodejs-error-reporting/issues/67",
+			"Assignees": null,
+			"Title": "Error reporting fails to include async stack traces"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-error-reporting",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2018-03-12T20:40:25Z",
+			"LastUserUpdate": "2018-03-13T17:07:23Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 73,
+			"URL": "https://github.com/googleapis/nodejs-error-reporting/issues/73",
+			"Assignees": null,
+			"Title": "Feature request: Allow users to override default logging implementation"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-error-reporting",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"type: bug",
+				"priority: p2"
+			],
+			"LastGooglerUpdate": "2018-04-18T22:58:11Z",
+			"LastUserUpdate": "2018-06-13T19:19:43Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 11660847
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 11660847
+			},
+			"IssueID": 111,
+			"URL": "https://github.com/googleapis/nodejs-error-reporting/issues/111",
+			"Assignees": [
+				{
+					"ID": 1213510,
+					"Login": "jmdobry"
+				}
+			],
+			"Title": "API link in document is a 404"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-error-reporting",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2018-05-19T04:03:56Z",
+			"LastUserUpdate": "2018-05-22T16:44:24Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 9050502
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 9050502
+			},
+			"IssueID": 127,
+			"URL": "https://github.com/googleapis/nodejs-error-reporting/issues/127",
+			"Assignees": [
+				{
+					"ID": 14253877,
+					"Login": "DominicKramer"
+				}
+			],
+			"Title": "enabled flag not working"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-error-reporting",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": false,
+			"Labels": [
+				"type: feature request",
+				"priority: p2"
+			],
+			"LastGooglerUpdate": "2018-05-21T17:15:44Z",
+			"LastUserUpdate": "2018-05-21T17:15:44Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 130,
+			"URL": "https://github.com/googleapis/nodejs-error-reporting/issues/130",
+			"Assignees": null,
+			"Title": "Remove duplicate reported errors in GKE"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-error-reporting",
+			"Priority": 2,
+			"Type": "Process",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: process"
+			],
+			"LastGooglerUpdate": "2018-06-23T19:27:41Z",
+			"LastUserUpdate": "2018-06-23T19:27:41Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 146,
+			"URL": "https://github.com/googleapis/nodejs-error-reporting/issues/146",
+			"Assignees": null,
+			"Title": "Fix the linting tests"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-error-reporting",
+			"Priority": 2,
+			"Type": "",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: docs"
+			],
+			"LastGooglerUpdate": "2018-08-06T23:56:52Z",
+			"LastUserUpdate": "2018-08-07T00:33:12Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 190,
+			"URL": "https://github.com/googleapis/nodejs-error-reporting/issues/190",
+			"Assignees": [],
+			"Title": "Allow adding custom examples in the README"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-error-reporting",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2018-08-21T13:57:04Z",
+			"LastUserUpdate": "2018-08-28T13:09:59Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 893314
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 893314
+			},
+			"IssueID": 196,
+			"URL": "https://github.com/googleapis/nodejs-error-reporting/issues/196",
+			"Assignees": null,
+			"Title": "Hapi: correctly extract url from request object"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-error-reporting",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"needs more info",
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2018-08-21T14:01:24Z",
+			"LastUserUpdate": "2018-08-28T13:06:20Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 197,
+			"URL": "https://github.com/googleapis/nodejs-error-reporting/issues/197",
+			"Assignees": null,
+			"Title": "Hapi: export hapiRequestInfoExtractor"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-firestore",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: question"
+			],
+			"LastGooglerUpdate": "2018-01-02T03:20:47Z",
+			"LastUserUpdate": "2018-06-06T15:32:29Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 93,
+			"URL": "https://github.com/googleapis/nodejs-firestore/issues/93",
+			"Assignees": [
+				{
+					"ID": 4015807,
+					"Login": "alexander-fenster"
+				}
+			],
+			"Title": "Error with create-react-app: Failed to minify the code from firestore/src/validate.js:27"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-firestore",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2018-07-12T12:51:14Z",
+			"LastUserUpdate": "2018-08-03T16:11:12Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 255,
+			"URL": "https://github.com/googleapis/nodejs-firestore/issues/255",
+			"Assignees": null,
+			"Title": "Eager loading Document References"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-firestore",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2018-08-02T17:59:45Z",
+			"LastUserUpdate": "2018-08-09T03:52:10Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 2520353
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 2520353
+			},
+			"IssueID": 305,
+			"URL": "https://github.com/googleapis/nodejs-firestore/issues/305",
+			"Assignees": [
+				{
+					"ID": 534619,
+					"Login": "JustinBeckwith"
+				}
+			],
+			"Title": "Project ID not automatically determined from key file"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-firestore",
+			"Priority": 2,
+			"Type": "",
+			"PriorityUnknown": true,
+			"Labels": [
+				"triage me"
+			],
+			"LastGooglerUpdate": "2018-08-28T15:44:31Z",
+			"LastUserUpdate": "2018-08-31T19:22:01Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 330,
+			"URL": "https://github.com/googleapis/nodejs-firestore/issues/330",
+			"Assignees": null,
+			"Title": "npm i fails on Node 10.9.0 / Ubuntu 18.04 "
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-firestore",
+			"Priority": 1,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p1",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2018-08-29T17:52:13Z",
+			"LastUserUpdate": "2018-08-29T17:52:13Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 188005
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 188005
+			},
+			"IssueID": 333,
+			"URL": "https://github.com/googleapis/nodejs-firestore/issues/333",
+			"Assignees": [
+				{
+					"ID": 4001432,
+					"Login": "kinwa91"
+				}
+			],
+			"Title": "Update synth.py to use new generated code location"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-firestore",
+			"Priority": 2,
+			"Type": "",
+			"PriorityUnknown": true,
+			"Labels": [
+				"triage me"
+			],
+			"LastGooglerUpdate": "2018-08-30T11:48:39Z",
+			"LastUserUpdate": "2018-08-31T19:52:42Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 336,
+			"URL": "https://github.com/googleapis/nodejs-firestore/issues/336",
+			"Assignees": null,
+			"Title": "trying to add a document with a number type property fails"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-language",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"status: blocked",
+				"type: question",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-02-20T13:27:37Z",
+			"LastUserUpdate": "2018-02-21T02:19:14Z",
+			"Blocked": true,
+			"ReleaseBlocking": false,
+			"IssueID": 33,
+			"URL": "https://github.com/googleapis/nodejs-language/issues/33",
+			"Assignees": null,
+			"Title": "Export enum values from package"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-logging",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: enhancement"
+			],
+			"LastGooglerUpdate": "2017-10-24T11:54:03Z",
+			"LastUserUpdate": "2017-10-24T11:54:03Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 27,
+			"URL": "https://github.com/googleapis/nodejs-logging/issues/27",
+			"Assignees": [
+				{
+					"ID": 79017,
+					"Login": "ofrobots"
+				}
+			],
+			"Title": "logging: add zone resource label"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-logging",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"status: blocked",
+				"priority: p2",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2018-03-26T16:49:12Z",
+			"LastUserUpdate": "2018-03-26T16:46:53Z",
+			"Blocked": true,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 13670186
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 14706489
+			},
+			"IssueID": 93,
+			"URL": "https://github.com/googleapis/nodejs-logging/issues/93",
+			"Assignees": null,
+			"Title": "getEntries() exhausts read quota by default"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-logging",
+			"Priority": 1,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p1",
+				"type: bug",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-05-25T14:55:19Z",
+			"LastUserUpdate": "2018-06-06T23:48:29Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 8493019
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 8716293
+			},
+			"IssueID": 115,
+			"URL": "https://github.com/googleapis/nodejs-logging/issues/115",
+			"Assignees": [
+				{
+					"ID": 4015807,
+					"Login": "alexander-fenster"
+				}
+			],
+			"Title": "System tests not working?"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-logging",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"needs more info",
+				"type: bug",
+				"priority: p2"
+			],
+			"LastGooglerUpdate": "2018-06-06T15:18:04Z",
+			"LastUserUpdate": "2018-08-07T01:32:30Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 7454854
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 7454854
+			},
+			"IssueID": 118,
+			"URL": "https://github.com/googleapis/nodejs-logging/issues/118",
+			"Assignees": [
+				{
+					"ID": 4015807,
+					"Login": "alexander-fenster"
+				},
+				{
+					"ID": 638797,
+					"Login": "crwilcox"
+				}
+			],
+			"Title": "ENOENT: no such file or directory, stat 'google/api/**/*.proto'"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-logging",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2018-06-18T13:47:03Z",
+			"LastUserUpdate": "2018-06-18T13:47:03Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 6423515
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 6423515
+			},
+			"IssueID": 125,
+			"URL": "https://github.com/googleapis/nodejs-logging/issues/125",
+			"Assignees": null,
+			"Title": "Add Instance name in the default metadata resource labels"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-logging",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2018-06-25T16:15:53Z",
+			"LastUserUpdate": "2018-08-21T17:19:26Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 5809785
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 6046211
+			},
+			"IssueID": 133,
+			"URL": "https://github.com/googleapis/nodejs-logging/issues/133",
+			"Assignees": [
+				{
+					"ID": 638797,
+					"Login": "crwilcox"
+				},
+				{
+					"ID": 4015807,
+					"Login": "alexander-fenster"
+				}
+			],
+			"Title": "Do not ship protos as part of the package"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-logging",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"status: blocked",
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2018-08-21T04:59:50Z",
+			"LastUserUpdate": "2018-08-28T02:42:02Z",
+			"Blocked": true,
+			"ReleaseBlocking": false,
+			"IssueID": 194,
+			"URL": "https://github.com/googleapis/nodejs-logging/issues/194",
+			"Assignees": null,
+			"Title": "Switch this library to TypeScript"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-logging",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: cleanup"
+			],
+			"LastGooglerUpdate": "2018-08-29T18:23:45Z",
+			"LastUserUpdate": "2018-08-29T18:23:45Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 204,
+			"URL": "https://github.com/googleapis/nodejs-logging/issues/204",
+			"Assignees": null,
+			"Title": "Switch from `var` to `let` and `const`"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-logging",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: cleanup"
+			],
+			"LastGooglerUpdate": "2018-08-29T18:24:01Z",
+			"LastUserUpdate": "2018-08-29T18:24:01Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 205,
+			"URL": "https://github.com/googleapis/nodejs-logging/issues/205",
+			"Assignees": null,
+			"Title": "Use es6 classes"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-logging",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: cleanup"
+			],
+			"LastGooglerUpdate": "2018-08-29T18:24:15Z",
+			"LastUserUpdate": "2018-08-29T18:24:15Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 206,
+			"URL": "https://github.com/googleapis/nodejs-logging/issues/206",
+			"Assignees": null,
+			"Title": "Use arrow functions"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-logging-bunyan",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2018-08-17T22:05:24Z",
+			"LastUserUpdate": "2018-08-17T22:05:24Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 1209614
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 1209614
+			},
+			"IssueID": 124,
+			"URL": "https://github.com/googleapis/nodejs-logging-bunyan/issues/124",
+			"Assignees": null,
+			"Title": "Slow require times (between 2 to 3 seconds) of logging-bunyan when used with Firebase functions"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-logging-bunyan",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2018-08-23T21:46:19Z",
+			"LastUserUpdate": "2018-08-23T21:46:19Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 135,
+			"URL": "https://github.com/googleapis/nodejs-logging-bunyan/issues/135",
+			"Assignees": null,
+			"Title": "Auto-detect serviceContext.service on GCP"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-logging-winston",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: question"
+			],
+			"LastGooglerUpdate": "2017-12-11T03:41:47Z",
+			"LastUserUpdate": "2018-04-13T22:41:47Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 18,
+			"URL": "https://github.com/googleapis/nodejs-logging-winston/issues/18",
+			"Assignees": null,
+			"Title": "Logs Not Available in GCP Console"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-logging-winston",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: bug",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-01-22T06:56:29Z",
+			"LastUserUpdate": "2018-04-11T14:17:58Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 19148949
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 19148949
+			},
+			"IssueID": 34,
+			"URL": "https://github.com/googleapis/nodejs-logging-winston/issues/34",
+			"Assignees": null,
+			"Title": "Object without format placeholder will not shows on StackDriver Log Viewer"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-logging-winston",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2018-05-23T09:44:08Z",
+			"LastUserUpdate": "2018-08-24T16:40:47Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 84,
+			"URL": "https://github.com/googleapis/nodejs-logging-winston/issues/84",
+			"Assignees": [
+				{
+					"ID": 119903,
+					"Login": "soldair"
+				}
+			],
+			"Title": "winston 3.0.0 support"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-logging-winston",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"type: bug",
+				"priority: p2"
+			],
+			"LastGooglerUpdate": "2018-05-24T19:38:39Z",
+			"LastUserUpdate": "2018-05-25T17:34:40Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 8562419
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 8562419
+			},
+			"IssueID": 85,
+			"URL": "https://github.com/googleapis/nodejs-logging-winston/issues/85",
+			"Assignees": null,
+			"Title": "Combining labels with a custom resource prevents logs from being recorded"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-logging-winston",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2018-05-30T20:12:44Z",
+			"LastUserUpdate": "2018-05-30T20:18:05Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 87,
+			"URL": "https://github.com/googleapis/nodejs-logging-winston/issues/87",
+			"Assignees": null,
+			"Title": "Adding HTTP request context to an error line does not propagate to context.httpRequest"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-logging-winston",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2018-06-14T10:03:06Z",
+			"LastUserUpdate": "2018-06-14T21:01:42Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 91,
+			"URL": "https://github.com/googleapis/nodejs-logging-winston/issues/91",
+			"Assignees": null,
+			"Title": "Not showing `resource.labels.function_name` nor `labels.\"execution_id\"`"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-logging-winston",
+			"Priority": 2,
+			"Type": "",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"status: investigating"
+			],
+			"LastGooglerUpdate": "2018-06-27T20:03:30Z",
+			"LastUserUpdate": "2018-06-28T10:58:36Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 115,
+			"URL": "https://github.com/googleapis/nodejs-logging-winston/issues/115",
+			"Assignees": null,
+			"Title": "Unexpected error while acquiring application default credentials"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-monitoring",
+			"Priority": 1,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p1",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2018-08-24T16:30:07Z",
+			"LastUserUpdate": "2018-08-24T16:30:07Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 624931
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 624931
+			},
+			"IssueID": 108,
+			"URL": "https://github.com/googleapis/nodejs-monitoring/issues/108",
+			"Assignees": [
+				{
+					"ID": 4015807,
+					"Login": "alexander-fenster"
+				}
+			],
+			"Title": "Investigate nightly test failures"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-pubsub",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": false,
+			"Labels": [
+				"triaged for GA",
+				":rotating_light:",
+				"type: enhancement",
+				"help wanted",
+				"priority: p2"
+			],
+			"LastGooglerUpdate": "2017-12-12T18:31:39Z",
+			"LastUserUpdate": "2018-01-09T22:21:07Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 6,
+			"URL": "https://github.com/googleapis/nodejs-pubsub/issues/6",
+			"Assignees": null,
+			"Title": "Make ackDeadline editable"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-pubsub",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"release blocking",
+				"triaged for GA",
+				"type: bug",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-02-07T15:25:21Z",
+			"LastUserUpdate": "2018-05-30T07:22:11Z",
+			"Blocked": false,
+			"ReleaseBlocking": true,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 17736017
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 22616748
+			},
+			"IssueID": 11,
+			"URL": "https://github.com/googleapis/nodejs-pubsub/issues/11",
+			"Assignees": null,
+			"Title": "messages sit in queue until GKE pod with subscriber gets reset"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-pubsub",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": false,
+			"Labels": [
+				"type: enhancement",
+				"priority: p2",
+				"triaged for GA",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2017-12-13T03:40:56Z",
+			"LastUserUpdate": "2017-12-13T03:40:55Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 12,
+			"URL": "https://github.com/googleapis/nodejs-pubsub/issues/12",
+			"Assignees": null,
+			"Title": "add Subscription#setOptions()"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-pubsub",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"triaged for GA",
+				"type: bug",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-01-09T18:05:39Z",
+			"LastUserUpdate": "2018-06-09T00:25:01Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 20231999
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 21299513
+			},
+			"IssueID": 27,
+			"URL": "https://github.com/googleapis/nodejs-pubsub/issues/27",
+			"Assignees": null,
+			"Title": "Getting GOAWAY  error"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-pubsub",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"status: blocked",
+				"type: question"
+			],
+			"LastGooglerUpdate": "2018-04-02T13:22:49Z",
+			"LastUserUpdate": "2018-04-04T11:21:07Z",
+			"Blocked": true,
+			"ReleaseBlocking": false,
+			"IssueID": 35,
+			"URL": "https://github.com/googleapis/nodejs-pubsub/issues/35",
+			"Assignees": null,
+			"Title": "Pub/Sub retry settings: needs common api between data \u0026 admin ops, better docs."
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-pubsub",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: bug",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-03-20T12:49:46Z",
+			"LastUserUpdate": "2018-03-28T08:50:41Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 14202952
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 15879591
+			},
+			"IssueID": 83,
+			"URL": "https://github.com/googleapis/nodejs-pubsub/issues/83",
+			"Assignees": null,
+			"Title": "Lease message do no work for long running jobs"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-pubsub",
+			"Priority": 1,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p1",
+				"type: bug",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-03-05T23:06:36Z",
+			"LastUserUpdate": "2018-03-05T23:18:53Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 15461942
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 15702014
+			},
+			"IssueID": 85,
+			"URL": "https://github.com/googleapis/nodejs-pubsub/issues/85",
+			"Assignees": [
+				{
+					"ID": 1707267,
+					"Login": "callmehiphop"
+				}
+			],
+			"Title": "axios library throws error on createTopic"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-pubsub",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": false,
+			"Labels": [
+				"type: enhancement",
+				"priority: p2"
+			],
+			"LastGooglerUpdate": "2018-03-29T06:25:08Z",
+			"LastUserUpdate": "2018-04-02T14:20:08Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 115,
+			"URL": "https://github.com/googleapis/nodejs-pubsub/issues/115",
+			"Assignees": null,
+			"Title": "Document message auto-leasing, make it optional"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-pubsub",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: enhancement"
+			],
+			"LastGooglerUpdate": "2018-04-12T04:29:18Z",
+			"LastUserUpdate": "2018-04-12T22:41:06Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 119,
+			"URL": "https://github.com/googleapis/nodejs-pubsub/issues/119",
+			"Assignees": null,
+			"Title": "Subscriber with flow control blocked by unacked messages"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-pubsub",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: enhancement",
+				"type: question"
+			],
+			"LastGooglerUpdate": "2018-05-01T12:27:51Z",
+			"LastUserUpdate": "2018-07-30T11:32:36Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 121,
+			"URL": "https://github.com/googleapis/nodejs-pubsub/issues/121",
+			"Assignees": null,
+			"Title": "pubish() should be able to take a JS object as input"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-pubsub",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": false,
+			"Labels": [
+				"type: question",
+				"priority: p2"
+			],
+			"LastGooglerUpdate": "2018-05-02T14:35:41Z",
+			"LastUserUpdate": "2018-05-30T22:28:01Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 124,
+			"URL": "https://github.com/googleapis/nodejs-pubsub/issues/124",
+			"Assignees": null,
+			"Title": "modifyAckDeadline is duplicating messages"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-pubsub",
+			"Priority": 1,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p1",
+				"type: bug",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-05-25T10:04:20Z",
+			"LastUserUpdate": "2018-06-11T11:04:00Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 8510478
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 8510478
+			},
+			"IssueID": 131,
+			"URL": "https://github.com/googleapis/nodejs-pubsub/issues/131",
+			"Assignees": [
+				{
+					"ID": 723048,
+					"Login": "stephenplusplus"
+				}
+			],
+			"Title": "Messages are received only sometimes"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-pubsub",
+			"Priority": 1,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p1",
+				"type: bug",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-07-24T23:07:58Z",
+			"LastUserUpdate": "2018-05-30T22:28:30Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 3279460
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 8249780
+			},
+			"IssueID": 133,
+			"URL": "https://github.com/googleapis/nodejs-pubsub/issues/133",
+			"Assignees": [
+				{
+					"ID": 723048,
+					"Login": "stephenplusplus"
+				}
+			],
+			"Title": "SSL23_GET_SERVER_HELLO:unknown protocol behind proxy"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-pubsub",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: question"
+			],
+			"LastGooglerUpdate": "2018-06-08T14:46:41Z",
+			"LastUserUpdate": "2018-06-10T22:51:34Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 140,
+			"URL": "https://github.com/googleapis/nodejs-pubsub/issues/140",
+			"Assignees": [
+				{
+					"ID": 1707267,
+					"Login": "callmehiphop"
+				}
+			],
+			"Title": "Connection drop detection"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-pubsub",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"TypeScript",
+				"status: blocked",
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2018-06-09T19:36:56Z",
+			"LastUserUpdate": "2018-06-22T21:49:12Z",
+			"Blocked": true,
+			"ReleaseBlocking": false,
+			"IssueID": 141,
+			"URL": "https://github.com/googleapis/nodejs-pubsub/issues/141",
+			"Assignees": null,
+			"Title": "Convert to TypeScript"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-pubsub",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"perf",
+				"priority: p2",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2018-07-30T15:18:40Z",
+			"LastUserUpdate": "2018-07-25T19:34:48Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 2789218
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 4639742
+			},
+			"IssueID": 170,
+			"URL": "https://github.com/googleapis/nodejs-pubsub/issues/170",
+			"Assignees": null,
+			"Title": "latency in message publish to pubsub"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-pubsub",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2018-08-14T16:52:49Z",
+			"LastUserUpdate": "2018-08-16T17:32:59Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 1487569
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 1572208
+			},
+			"IssueID": 212,
+			"URL": "https://github.com/googleapis/nodejs-pubsub/issues/212",
+			"Assignees": null,
+			"Title": "Subscriber/Subscription.close does not support promises"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-pubsub",
+			"Priority": 2,
+			"Type": "",
+			"PriorityUnknown": true,
+			"Labels": [
+				"triage me"
+			],
+			"LastGooglerUpdate": "2018-08-27T19:12:53Z",
+			"LastUserUpdate": "2018-08-27T19:12:53Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 222,
+			"URL": "https://github.com/googleapis/nodejs-pubsub/issues/222",
+			"Assignees": null,
+			"Title": "Single Message per Worker Default Configuration Issue"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-resource",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: cleanup"
+			],
+			"LastGooglerUpdate": "2018-08-07T19:11:50Z",
+			"LastUserUpdate": "2018-08-07T19:11:50Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 68,
+			"URL": "https://github.com/googleapis/nodejs-resource/issues/68",
+			"Assignees": null,
+			"Title": "Fix the code coverage"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-spanner",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2017-10-27T21:11:34Z",
+			"LastUserUpdate": "2017-10-27T21:05:14Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 22,
+			"URL": "https://github.com/googleapis/nodejs-spanner/issues/22",
+			"Assignees": null,
+			"Title": "Cloud Spanner documentation should talk about supported types"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-spanner",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				":rotating_light:",
+				"priority: p2",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2018-04-02T15:48:01Z",
+			"LastUserUpdate": "2018-04-02T14:09:01Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 13069057
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 20596395
+			},
+			"IssueID": 83,
+			"URL": "https://github.com/googleapis/nodejs-spanner/issues/83",
+			"Assignees": [],
+			"Title": "Errors in Google Cloud Functions' Emulator"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-spanner",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: bug",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-03-03T01:00:10Z",
+			"LastUserUpdate": "2018-05-17T15:32:07Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 15714328
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 15714328
+			},
+			"IssueID": 139,
+			"URL": "https://github.com/googleapis/nodejs-spanner/issues/139",
+			"Assignees": null,
+			"Title": "YCSB benchmark hangs up with workload b"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-spanner",
+			"Priority": 1,
+			"Type": "FR",
+			"PriorityUnknown": false,
+			"Labels": [
+				"type: feature request",
+				":rotating_light:",
+				"priority: p1"
+			],
+			"LastGooglerUpdate": "2018-05-05T09:59:33Z",
+			"LastUserUpdate": "2018-07-31T15:57:52Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 189,
+			"URL": "https://github.com/googleapis/nodejs-spanner/issues/189",
+			"Assignees": [
+				{
+					"ID": 1707267,
+					"Login": "callmehiphop"
+				}
+			],
+			"Title": "Deadline for Transaction exceeded - question"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-spanner",
+			"Priority": 1,
+			"Type": "",
+			"PriorityUnknown": false,
+			"Labels": [
+				"nightly-failure",
+				"priority: p1",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-06-08T12:19:44Z",
+			"LastUserUpdate": "2018-06-07T23:24:23Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 190,
+			"URL": "https://github.com/googleapis/nodejs-spanner/issues/190",
+			"Assignees": [
+				{
+					"ID": 723048,
+					"Login": "stephenplusplus"
+				}
+			],
+			"Title": "nightly testing flakyness"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-spanner",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2018-05-09T18:06:37Z",
+			"LastUserUpdate": "2018-08-31T17:50:41Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 9863941
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 9863941
+			},
+			"IssueID": 192,
+			"URL": "https://github.com/googleapis/nodejs-spanner/issues/192",
+			"Assignees": [
+				{
+					"ID": 1707267,
+					"Login": "callmehiphop"
+				}
+			],
+			"Title": "Session Pool Leaks \u0026 Investigation"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-spanner",
+			"Priority": 1,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"type: bug",
+				"needs more info",
+				":rotating_light:",
+				"priority: p1"
+			],
+			"LastGooglerUpdate": "2018-06-10T00:31:09Z",
+			"LastUserUpdate": "2018-08-24T21:10:26Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 7162469
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 7162469
+			},
+			"IssueID": 216,
+			"URL": "https://github.com/googleapis/nodejs-spanner/issues/216",
+			"Assignees": [
+				{
+					"ID": 638797,
+					"Login": "crwilcox"
+				}
+			],
+			"Title": "Error 4: Deadline for Transaction exceeded / Transaction outcome unknown"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-spanner",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"status: blocked",
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2018-06-13T22:18:24Z",
+			"LastUserUpdate": "2018-06-13T22:18:24Z",
+			"Blocked": true,
+			"ReleaseBlocking": false,
+			"IssueID": 223,
+			"URL": "https://github.com/googleapis/nodejs-spanner/issues/223",
+			"Assignees": null,
+			"Title": "Convert to TypeScript"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-spanner",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: cleanup"
+			],
+			"LastGooglerUpdate": "2018-06-13T22:18:52Z",
+			"LastUserUpdate": "2018-06-13T22:18:52Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 224,
+			"URL": "https://github.com/googleapis/nodejs-spanner/issues/224",
+			"Assignees": null,
+			"Title": "Switch from var to let/const"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-spanner",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: cleanup"
+			],
+			"LastGooglerUpdate": "2018-06-13T22:19:16Z",
+			"LastUserUpdate": "2018-06-13T22:19:16Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 225,
+			"URL": "https://github.com/googleapis/nodejs-spanner/issues/225",
+			"Assignees": null,
+			"Title": "Use es6 classes"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-spanner",
+			"Priority": 1,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p1",
+				"type: bug",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-06-18T21:27:29Z",
+			"LastUserUpdate": "2018-06-25T17:54:08Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 6395889
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 6410536
+			},
+			"IssueID": 234,
+			"URL": "https://github.com/googleapis/nodejs-spanner/issues/234",
+			"Assignees": [
+				{
+					"ID": 723048,
+					"Login": "stephenplusplus"
+				}
+			],
+			"Title": "Error 13 INTERNAL: GOAWAY received"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-spanner",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: question"
+			],
+			"LastGooglerUpdate": "2018-06-22T16:20:15Z",
+			"LastUserUpdate": "2018-06-21T23:16:40Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 237,
+			"URL": "https://github.com/googleapis/nodejs-spanner/issues/237",
+			"Assignees": null,
+			"Title": "Spanner has an uncaught exception in an async function"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-spanner",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2018-06-24T00:56:26Z",
+			"LastUserUpdate": "2018-06-29T18:13:48Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 241,
+			"URL": "https://github.com/googleapis/nodejs-spanner/issues/241",
+			"Assignees": null,
+			"Title": "Support or documentation for transaction commit timestamp"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-spanner",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2018-07-05T14:10:10Z",
+			"LastUserUpdate": "2018-07-23T20:26:31Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 249,
+			"URL": "https://github.com/googleapis/nodejs-spanner/issues/249",
+			"Assignees": null,
+			"Title": "Programming model for runTransaction is hard to use with promises."
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-spanner",
+			"Priority": 2,
+			"Type": "Process",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: process",
+				"status: blocked"
+			],
+			"LastGooglerUpdate": "2018-07-19T20:49:20Z",
+			"LastUserUpdate": "2018-07-19T21:40:12Z",
+			"Blocked": true,
+			"ReleaseBlocking": false,
+			"IssueID": 268,
+			"URL": "https://github.com/googleapis/nodejs-spanner/issues/268",
+			"Assignees": [
+				{
+					"ID": 638797,
+					"Login": "crwilcox"
+				}
+			],
+			"Title": "deep-extend@0.4.2 security vulnerability"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-spanner",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: question"
+			],
+			"LastGooglerUpdate": "2018-08-15T18:33:57Z",
+			"LastUserUpdate": "2018-08-15T23:51:35Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 296,
+			"URL": "https://github.com/googleapis/nodejs-spanner/issues/296",
+			"Assignees": [
+				{
+					"ID": 638797,
+					"Login": "crwilcox"
+				}
+			],
+			"Title": "table.delete may be confusing for users"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-spanner",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: question"
+			],
+			"LastGooglerUpdate": "2018-08-29T19:44:09Z",
+			"LastUserUpdate": "2018-08-24T02:22:45Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 305,
+			"URL": "https://github.com/googleapis/nodejs-spanner/issues/305",
+			"Assignees": null,
+			"Title": "Cannot read property `type` of undefined"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-spanner",
+			"Priority": 1,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"type: bug",
+				"priority: p1"
+			],
+			"LastGooglerUpdate": "2018-08-24T16:23:25Z",
+			"LastUserUpdate": "2018-08-24T16:23:25Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 625333
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 625333
+			},
+			"IssueID": 307,
+			"URL": "https://github.com/googleapis/nodejs-spanner/issues/307",
+			"Assignees": [
+				{
+					"ID": 638797,
+					"Login": "crwilcox"
+				}
+			],
+			"Title": "Investigate nightly test failures"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-speech",
+			"Priority": 2,
+			"Type": "",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"status: blocked",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2017-12-29T14:50:56Z",
+			"LastUserUpdate": "2018-08-24T22:38:21Z",
+			"Blocked": true,
+			"ReleaseBlocking": false,
+			"IssueID": 10,
+			"URL": "https://github.com/googleapis/nodejs-speech/issues/10",
+			"Assignees": null,
+			"Title": "Poll for longRunningRecognize result from another process?"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-speech",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: enhancement"
+			],
+			"LastGooglerUpdate": "2018-03-26T22:16:39Z",
+			"LastUserUpdate": "2018-04-12T10:14:31Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 19,
+			"URL": "https://github.com/googleapis/nodejs-speech/issues/19",
+			"Assignees": [
+				{
+					"ID": 4015807,
+					"Login": "alexander-fenster"
+				}
+			],
+			"Title": "Authenticating via API key not supported?"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-speech",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: bug",
+				"status: blocked"
+			],
+			"LastGooglerUpdate": "2018-05-16T19:05:16Z",
+			"LastUserUpdate": "2018-06-12T08:46:10Z",
+			"Blocked": true,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 9255622
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 14036977
+			},
+			"IssueID": 45,
+			"URL": "https://github.com/googleapis/nodejs-speech/issues/45",
+			"Assignees": null,
+			"Title": "Google speech API response timeout "
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-speech",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2018-04-04T12:27:35Z",
+			"LastUserUpdate": "2018-06-12T22:06:16Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 12908283
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 12908316
+			},
+			"IssueID": 56,
+			"URL": "https://github.com/googleapis/nodejs-speech/issues/56",
+			"Assignees": null,
+			"Title": "Speech API speechContexts not recognising arrays"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-speech",
+			"Priority": 1,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"type: bug",
+				"priority: p1",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-08-29T20:17:40Z",
+			"LastUserUpdate": "2018-08-29T21:09:01Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 179278
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 11186585
+			},
+			"IssueID": 62,
+			"URL": "https://github.com/googleapis/nodejs-speech/issues/62",
+			"Assignees": [
+				{
+					"ID": 723048,
+					"Login": "stephenplusplus"
+				},
+				{
+					"ID": 4001432,
+					"Login": "kinwa91"
+				}
+			],
+			"Title": "Unhandled 'error' event crash"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-speech",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: enhancement"
+			],
+			"LastGooglerUpdate": "2018-04-24T21:54:27Z",
+			"LastUserUpdate": "2018-04-24T21:54:27Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 63,
+			"URL": "https://github.com/googleapis/nodejs-speech/issues/63",
+			"Assignees": null,
+			"Title": "Add Enums for configuration of encodings"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-speech",
+			"Priority": 1,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"type: bug",
+				":rotating_light:",
+				"priority: p1"
+			],
+			"LastGooglerUpdate": "2018-04-25T08:09:58Z",
+			"LastUserUpdate": "2018-07-09T15:02:28Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 11109340
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 11109340
+			},
+			"IssueID": 65,
+			"URL": "https://github.com/googleapis/nodejs-speech/issues/65",
+			"Assignees": [
+				{
+					"ID": 4001432,
+					"Login": "kinwa91"
+				}
+			],
+			"Title": "isFinal missing on streamingRecognize"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-speech",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: question"
+			],
+			"LastGooglerUpdate": "2018-06-15T20:51:57Z",
+			"LastUserUpdate": "2018-06-15T20:53:01Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 81,
+			"URL": "https://github.com/googleapis/nodejs-speech/issues/81",
+			"Assignees": [
+				{
+					"ID": 638797,
+					"Login": "crwilcox"
+				}
+			],
+			"Title": "How to get speakertag from longRunningRecognize?"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-speech",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: question"
+			],
+			"LastGooglerUpdate": "2018-07-20T14:18:25Z",
+			"LastUserUpdate": "2018-07-20T15:05:22Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 121,
+			"URL": "https://github.com/googleapis/nodejs-speech/issues/121",
+			"Assignees": null,
+			"Title": "Save speech to text in local using node js"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-speech",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: question"
+			],
+			"LastGooglerUpdate": "2018-08-07T00:15:20Z",
+			"LastUserUpdate": "2018-08-05T19:45:45Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 134,
+			"URL": "https://github.com/googleapis/nodejs-speech/issues/134",
+			"Assignees": null,
+			"Title": " speechEventType: 'SPEECH_EVENT_UNSPECIFIED'"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-speech",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: question"
+			],
+			"LastGooglerUpdate": "2018-08-06T20:13:32Z",
+			"LastUserUpdate": "2018-08-06T10:57:01Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 135,
+			"URL": "https://github.com/googleapis/nodejs-speech/issues/135",
+			"Assignees": null,
+			"Title": "How to stop streaming recognize?"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-speech",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: question"
+			],
+			"LastGooglerUpdate": "2018-08-14T11:02:01Z",
+			"LastUserUpdate": "2018-08-14T11:02:01Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 144,
+			"URL": "https://github.com/googleapis/nodejs-speech/issues/144",
+			"Assignees": null,
+			"Title": "Delay in using alternative language codes"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-speech",
+			"Priority": 2,
+			"Type": "",
+			"PriorityUnknown": true,
+			"Labels": [
+				"triage me",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-08-22T00:25:42Z",
+			"LastUserUpdate": "2018-08-22T00:25:42Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 147,
+			"URL": "https://github.com/googleapis/nodejs-speech/issues/147",
+			"Assignees": null,
+			"Title": "How do I force streamingRecognize to error when network is unavailable?"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-storage",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: enhancement"
+			],
+			"LastGooglerUpdate": "2017-09-21T22:01:53Z",
+			"LastUserUpdate": "2017-09-21T22:01:54Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 23,
+			"URL": "https://github.com/googleapis/nodejs-storage/issues/23",
+			"Assignees": null,
+			"Title": "storage: wish - add logging endpoint support"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-storage",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": false,
+			"Labels": [
+				"docs",
+				"priority: p2",
+				"status: blocked",
+				"type: enhancement",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2017-12-18T16:30:21Z",
+			"LastUserUpdate": "2018-07-04T15:45:05Z",
+			"Blocked": true,
+			"ReleaseBlocking": false,
+			"IssueID": 101,
+			"URL": "https://github.com/googleapis/nodejs-storage/issues/101",
+			"Assignees": null,
+			"Title": "Storage API has poor performance in Google Cloud Functions"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-storage",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"help wanted",
+				"type: enhancement"
+			],
+			"LastGooglerUpdate": "2018-06-27T21:12:27Z",
+			"LastUserUpdate": "2018-05-15T09:18:23Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 170,
+			"URL": "https://github.com/googleapis/nodejs-storage/issues/170",
+			"Assignees": [
+				{
+					"ID": 723048,
+					"Login": "stephenplusplus"
+				}
+			],
+			"Title": "Error message in Node.js console is not the orignial error message"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-storage",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"Breaking Change",
+				"type: enhancement"
+			],
+			"LastGooglerUpdate": "2018-04-12T16:54:02Z",
+			"LastUserUpdate": "2018-04-12T20:42:39Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 175,
+			"URL": "https://github.com/googleapis/nodejs-storage/issues/175",
+			"Assignees": null,
+			"Title": "Drop support for node.js 4"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-storage",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2018-05-23T16:20:43Z",
+			"LastUserUpdate": "2018-08-23T10:25:38Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 207,
+			"URL": "https://github.com/googleapis/nodejs-storage/issues/207",
+			"Assignees": [
+				{
+					"ID": 101553,
+					"Login": "fhinkel"
+				}
+			],
+			"Title": "GCS - NPM dependencies"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-storage",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: question",
+				"needs more info"
+			],
+			"LastGooglerUpdate": "2018-07-13T18:27:33Z",
+			"LastUserUpdate": "2018-07-10T11:33:09Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 215,
+			"URL": "https://github.com/googleapis/nodejs-storage/issues/215",
+			"Assignees": null,
+			"Title": "Unable to understand the error message"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-storage",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2018-06-04T20:36:57Z",
+			"LastUserUpdate": "2018-06-05T19:55:13Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 7608521
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 7675125
+			},
+			"IssueID": 217,
+			"URL": "https://github.com/googleapis/nodejs-storage/issues/217",
+			"Assignees": null,
+			"Title": "Spurious precondition failures caused by ifGenerationMatch preserved across save() calls"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-storage",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: enhancement"
+			],
+			"LastGooglerUpdate": "2018-06-05T21:36:21Z",
+			"LastUserUpdate": "2018-06-05T21:36:21Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 220,
+			"URL": "https://github.com/googleapis/nodejs-storage/issues/220",
+			"Assignees": null,
+			"Title": "Not Found error is too generic for a non-existant bucket"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-storage",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: enhancement",
+				"type: question"
+			],
+			"LastGooglerUpdate": "2018-06-13T16:53:26Z",
+			"LastUserUpdate": "2018-06-13T17:16:44Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 222,
+			"URL": "https://github.com/googleapis/nodejs-storage/issues/222",
+			"Assignees": null,
+			"Title": "Setting metadata seems really difficult to reason with."
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-storage",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": true,
+			"Labels": [
+				"TypeScript",
+				"type: cleanup"
+			],
+			"LastGooglerUpdate": "2018-06-09T22:08:05Z",
+			"LastUserUpdate": "2018-06-13T02:04:35Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 224,
+			"URL": "https://github.com/googleapis/nodejs-storage/issues/224",
+			"Assignees": [
+				{
+					"ID": 4001432,
+					"Login": "kinwa91"
+				}
+			],
+			"Title": "Convert to TypeScript"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-storage",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": true,
+			"Labels": [
+				"TypeScript",
+				"type: cleanup"
+			],
+			"LastGooglerUpdate": "2018-06-13T02:07:28Z",
+			"LastUserUpdate": "2018-06-13T02:07:28Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 230,
+			"URL": "https://github.com/googleapis/nodejs-storage/issues/230",
+			"Assignees": null,
+			"Title": "Get `gts check` passing"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-storage",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": true,
+			"Labels": [
+				"TypeScript",
+				"type: cleanup"
+			],
+			"LastGooglerUpdate": "2018-06-13T02:08:19Z",
+			"LastUserUpdate": "2018-06-13T02:08:19Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 231,
+			"URL": "https://github.com/googleapis/nodejs-storage/issues/231",
+			"Assignees": null,
+			"Title": "Enable `noImplicitAny` in the tsconfig"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-storage",
+			"Priority": 1,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"type: question",
+				"priority: p1",
+				"type: bug",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-06-29T13:48:12Z",
+			"LastUserUpdate": "2018-06-22T19:33:23Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 5473046
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 6128890
+			},
+			"IssueID": 249,
+			"URL": "https://github.com/googleapis/nodejs-storage/issues/249",
+			"Assignees": [
+				{
+					"ID": 723048,
+					"Login": "stephenplusplus"
+				}
+			],
+			"Title": "Samples system test failing: files › should download a file"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-storage",
+			"Priority": 2,
+			"Type": "Process",
+			"PriorityUnknown": true,
+			"Labels": [
+				"needs more info",
+				"type: process"
+			],
+			"LastGooglerUpdate": "2018-06-27T20:42:55Z",
+			"LastUserUpdate": "2018-07-20T15:47:25Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 259,
+			"URL": "https://github.com/googleapis/nodejs-storage/issues/259",
+			"Assignees": [
+				{
+					"ID": 723048,
+					"Login": "stephenplusplus"
+				}
+			],
+			"Title": "Ship a new release"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-storage",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: question"
+			],
+			"LastGooglerUpdate": "2018-07-05T14:31:02Z",
+			"LastUserUpdate": "2018-07-05T22:59:13Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 274,
+			"URL": "https://github.com/googleapis/nodejs-storage/issues/274",
+			"Assignees": null,
+			"Title": "calling setMetadata in a series of promises results in unpredictable values being saved"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-storage",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2018-07-24T23:07:13Z",
+			"LastUserUpdate": "2018-07-09T09:30:17Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 3279505
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 5040923
+			},
+			"IssueID": 277,
+			"URL": "https://github.com/googleapis/nodejs-storage/issues/277",
+			"Assignees": null,
+			"Title": "HTTPS_PROXY with HTTP Proxy and google HTTPS URLs does not work. "
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-storage",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2018-07-30T12:53:53Z",
+			"LastUserUpdate": "2018-08-06T15:14:20Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 2797905
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 2797905
+			},
+			"IssueID": 312,
+			"URL": "https://github.com/googleapis/nodejs-storage/issues/312",
+			"Assignees": null,
+			"Title": "createWriteStream({resumable:false}) causes error to be swallowed and program to hang"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-storage",
+			"Priority": 2,
+			"Type": "",
+			"PriorityUnknown": true,
+			"Labels": [
+				"triage me"
+			],
+			"LastGooglerUpdate": "2018-08-30T04:13:46Z",
+			"LastUserUpdate": "2018-08-30T03:58:46Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 345,
+			"URL": "https://github.com/googleapis/nodejs-storage/issues/345",
+			"Assignees": null,
+			"Title": "Library not released yet and developers hitting new constructor issues."
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-storage",
+			"Priority": 2,
+			"Type": "",
+			"PriorityUnknown": true,
+			"Labels": [
+				"triage me"
+			],
+			"LastGooglerUpdate": "2018-08-30T13:31:40Z",
+			"LastUserUpdate": "2018-08-30T13:31:40Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 346,
+			"URL": "https://github.com/googleapis/nodejs-storage/issues/346",
+			"Assignees": null,
+			"Title": "Cannot create bucket in a specific region"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-storage",
+			"Priority": 2,
+			"Type": "",
+			"PriorityUnknown": true,
+			"Labels": [
+				"triage me"
+			],
+			"LastGooglerUpdate": "2018-08-30T21:54:07Z",
+			"LastUserUpdate": "2018-08-30T21:54:07Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 347,
+			"URL": "https://github.com/googleapis/nodejs-storage/issues/347",
+			"Assignees": null,
+			"Title": "cors issue with uploading to signed url"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-text-to-speech",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2018-03-23T17:30:13Z",
+			"LastUserUpdate": "2018-03-23T21:49:12Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 3,
+			"URL": "https://github.com/googleapis/nodejs-text-to-speech/issues/3",
+			"Assignees": [
+				{
+					"ID": 4015807,
+					"Login": "alexander-fenster"
+				}
+			],
+			"Title": "listValues() should allow no-arguments"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-text-to-speech",
+			"Priority": 1,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"type: bug",
+				"priority: p1",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-03-24T01:12:23Z",
+			"LastUserUpdate": "2018-03-28T20:22:11Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 13899195
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 13899195
+			},
+			"IssueID": 5,
+			"URL": "https://github.com/googleapis/nodejs-text-to-speech/issues/5",
+			"Assignees": [
+				{
+					"ID": 4001432,
+					"Login": "kinwa91"
+				}
+			],
+			"Title": "Missing ./system-tests/"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-text-to-speech",
+			"Priority": 1,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p1",
+				"type: bug",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-04-04T11:57:50Z",
+			"LastUserUpdate": "2018-06-12T22:18:06Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 12910068
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 12910068
+			},
+			"IssueID": 12,
+			"URL": "https://github.com/googleapis/nodejs-text-to-speech/issues/12",
+			"Assignees": [
+				{
+					"ID": 4001432,
+					"Login": "kinwa91"
+				}
+			],
+			"Title": "Unhandled promise rejection"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-text-to-speech",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: feature request"
+			],
+			"LastGooglerUpdate": "2018-05-21T21:02:54Z",
+			"LastUserUpdate": "2018-05-21T21:02:54Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 19,
+			"URL": "https://github.com/googleapis/nodejs-text-to-speech/issues/19",
+			"Assignees": null,
+			"Title": "metadata cue points."
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-text-to-speech",
+			"Priority": 2,
+			"Type": "",
+			"PriorityUnknown": true,
+			"Labels": [
+				"triage me",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-08-22T20:51:53Z",
+			"LastUserUpdate": "2018-08-28T17:29:47Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 77,
+			"URL": "https://github.com/googleapis/nodejs-text-to-speech/issues/77",
+			"Assignees": null,
+			"Title": "Api seems not to work on Raspbian/Raspberry Pi Zero W"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-translate",
+			"Priority": 2,
+			"Type": "Cleanup",
+			"PriorityUnknown": true,
+			"Labels": [
+				"TypeScript",
+				"type: cleanup"
+			],
+			"LastGooglerUpdate": "2018-07-10T18:57:14Z",
+			"LastUserUpdate": "2018-07-10T18:57:14Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 69,
+			"URL": "https://github.com/googleapis/nodejs-translate/issues/69",
+			"Assignees": null,
+			"Title": "Enable `noImplicitThis` in the tsconfig"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-translate",
+			"Priority": 2,
+			"Type": "",
+			"PriorityUnknown": true,
+			"Labels": [
+				"triage me"
+			],
+			"LastGooglerUpdate": "2018-08-30T13:57:06Z",
+			"LastUserUpdate": "2018-08-30T13:57:06Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 107,
+			"URL": "https://github.com/googleapis/nodejs-translate/issues/107",
+			"Assignees": null,
+			"Title": "There no named export \"Translate\" "
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-translate",
+			"Priority": 1,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p1",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2018-08-30T17:58:35Z",
+			"LastUserUpdate": "2018-08-30T18:44:58Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 101223
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 101223
+			},
+			"IssueID": 108,
+			"URL": "https://github.com/googleapis/nodejs-translate/issues/108",
+			"Assignees": [
+				{
+					"ID": 101553,
+					"Login": "fhinkel"
+				}
+			],
+			"Title": "System tests fail with request error"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-vision",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: enhancement",
+				"status: blocked"
+			],
+			"LastGooglerUpdate": "2017-12-19T17:59:12Z",
+			"LastUserUpdate": "2017-11-10T17:10:08Z",
+			"Blocked": true,
+			"ReleaseBlocking": false,
+			"IssueID": 3,
+			"URL": "https://github.com/googleapis/nodejs-vision/issues/3",
+			"Assignees": [
+				{
+					"ID": 4015807,
+					"Login": "alexander-fenster"
+				}
+			],
+			"Title": "Methods should be in verb form, not noun form."
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-vision",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: enhancement",
+				"docs"
+			],
+			"LastGooglerUpdate": "2017-11-27T23:30:58Z",
+			"LastUserUpdate": "2017-11-27T23:30:58Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 6,
+			"URL": "https://github.com/googleapis/nodejs-vision/issues/6",
+			"Assignees": null,
+			"Title": "Single-feature methods are not added dynamically."
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-vision",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": false,
+			"Labels": [
+				":rotating_light:",
+				"priority: p2",
+				"status: blocked",
+				"type: question"
+			],
+			"LastGooglerUpdate": "2017-12-20T22:09:30Z",
+			"LastUserUpdate": "2017-12-20T21:37:17Z",
+			"Blocked": true,
+			"ReleaseBlocking": false,
+			"IssueID": 17,
+			"URL": "https://github.com/googleapis/nodejs-vision/issues/17",
+			"Assignees": null,
+			"Title": "Can't seem to access Vision.types that we had in 0.12"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-vision",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: question",
+				"docs"
+			],
+			"LastGooglerUpdate": "2017-12-22T19:32:40Z",
+			"LastUserUpdate": "2018-06-14T15:48:05Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 18,
+			"URL": "https://github.com/googleapis/nodejs-vision/issues/18",
+			"Assignees": [],
+			"Title": "safeSearchDetection not finding image"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-vision",
+			"Priority": 1,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"docs",
+				"priority: p1",
+				"type: bug",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-04-09T13:30:10Z",
+			"LastUserUpdate": "2018-06-14T18:06:04Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 12472528
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 12694518
+			},
+			"IssueID": 54,
+			"URL": "https://github.com/googleapis/nodejs-vision/issues/54",
+			"Assignees": [
+				{
+					"ID": 638797,
+					"Login": "crwilcox"
+				}
+			],
+			"Title": "Face Detection Tutorial Issues"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-vision",
+			"Priority": 2,
+			"Type": "FR",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: enhancement"
+			],
+			"LastGooglerUpdate": "2018-05-11T13:13:25Z",
+			"LastUserUpdate": "2018-05-10T18:58:36Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 63,
+			"URL": "https://github.com/googleapis/nodejs-vision/issues/63",
+			"Assignees": null,
+			"Title": "Configure vision client with API key?"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-vision",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: question"
+			],
+			"LastGooglerUpdate": "2018-05-31T21:07:24Z",
+			"LastUserUpdate": "2018-08-10T23:33:39Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 70,
+			"URL": "https://github.com/googleapis/nodejs-vision/issues/70",
+			"Assignees": null,
+			"Title": "Can't find mapping between ILSVRC2012_ID and human readable strings"
+		},
+		{
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-vision",
+			"Priority": 2,
+			"Type": "Customer",
+			"PriorityUnknown": true,
+			"Labels": [
+				"type: question"
+			],
+			"LastGooglerUpdate": "2018-06-18T07:08:51Z",
+			"LastUserUpdate": "2018-06-18T07:08:51Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"IssueID": 86,
+			"URL": "https://github.com/googleapis/nodejs-vision/issues/86",
+			"Assignees": [
+				{
+					"ID": 280,
+					"Login": "beccca"
+				}
+			],
+			"Title": "How to limit the text detection region?"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-vision",
+			"Priority": 1,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p1",
+				"type: bug",
+				":rotating_light:"
+			],
+			"LastGooglerUpdate": "2018-07-07T19:06:30Z",
+			"LastUserUpdate": "2018-07-10T00:03:05Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 4762748
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 4762748
+			},
+			"IssueID": 114,
+			"URL": "https://github.com/googleapis/nodejs-vision/issues/114",
+			"Assignees": [
+				{
+					"ID": 4001432,
+					"Login": "kinwa91"
+				}
+			],
+			"Title": "annotations.proto` was not found"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-vision",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"priority: p2",
+				"type: bug"
+			],
+			"LastGooglerUpdate": "2018-07-10T10:53:56Z",
+			"LastUserUpdate": "2018-08-30T02:59:57Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 4533102
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 4533102
+			},
+			"IssueID": 120,
+			"URL": "https://github.com/googleapis/nodejs-vision/issues/120",
+			"Assignees": [
+				{
+					"ID": 4015807,
+					"Login": "alexander-fenster"
+				}
+			],
+			"Title": "Getting deprecation warning with grpc "
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/nodejs-vision",
+			"Priority": 1,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": [
+				"type: bug",
+				"priority: p1"
+			],
+			"LastGooglerUpdate": "2018-08-10T08:52:46Z",
+			"LastUserUpdate": "2018-08-10T08:52:46Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 1861972
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 1861972
+			},
+			"IssueID": 168,
+			"URL": "https://github.com/googleapis/nodejs-vision/issues/168",
+			"Assignees": [
+				{
+					"ID": 638797,
+					"Login": "crwilcox"
+				}
+			],
+			"Title": "ImageAnnotatorClient.batchAnnotateImages returns frequent \"bad image data\" requests."
+		}
+	]
+}

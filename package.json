@@ -1,0 +1,24 @@
+{
+  "name": "labeldata",
+  "version": "1.0.0",
+  "description": "Retrieves current issues and creates label csv",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "say-hello": "node hello.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steffnay/labeldata.git"
+  },
+  "author": "Steffany Brown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steffnay/labeldata/issues"
+  },
+  "homepage": "https://github.com/steffnay/labeldata#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "axios": "^0.16.2"
+  }
+}
