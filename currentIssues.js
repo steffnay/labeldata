@@ -16,7 +16,7 @@ function getIssueInfo(issue, callback){
   let repoName = issue.Repo
   let number = issue.IssueID
 
-  let url = `https://api.github.com/repos/${repoName}/issues/${number}?client_id=****&client_secret=****`
+  let url = `https://api.github.com/repos/${repoName}/issues/${number}?client_id=****&client_secret=*****`
 
   axios.get(url).then(response => {
     callback(null,response);
