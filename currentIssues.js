@@ -23,7 +23,6 @@ function getIssueInfo(issue, callback){
   });
 }
 
-
 let issueDetailsArray = []
 
 
@@ -40,6 +39,7 @@ async.each(issuesArray, function(issue, callback){
       return;
     }
     if(data){
+      // console.log(data.data)
       issueInfo.title = data.data.title;
       issueInfo.body = data.data.body;
       issueInfo.labels = data.data.labels;
