@@ -19,6 +19,7 @@
   "homepage": "https://github.com/steffnay/labeldata#readme",
   "dependencies": {
     "async": "^2.6.1",
-    "axios": "^0.16.2"
+    "axios": "^0.16.2",
+    "node-sass": "^4.9.3"
   }
 }
