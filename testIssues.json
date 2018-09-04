@@ -115,6 +115,36 @@
 				}
 			],
 			"Title": "monitored resource type \"container\" or \"gke_container\"?"
+		},
+		{
+			"slo_rule_id": 5353,
+			"slo_id": 424242,
+			"Repo": "googleapis/gax-dotnet",
+			"Priority": 2,
+			"Type": "Bug",
+			"PriorityUnknown": false,
+			"Labels": ["type *@*(P$*#)*$)*$)(*$)($*)($*)$(*)$(*$)(*$ )"],
+			"LastGooglerUpdate": "2018-01-27T00:59:37Z",
+			"LastUserUpdate": "2018-07-12T21:16:59Z",
+			"Blocked": false,
+			"ReleaseBlocking": false,
+			"UpdateCompliance": {
+				"Compliant": false,
+				"Duration": 18738361
+			},
+			"ResolutionCompliance": {
+				"Compliant": false,
+				"Duration": 18738361
+			},
+			"IssueID": 233,
+			"URL": "https://github.com/googleapis/gax-dotnet/issues/233",
+			"Assignees": [
+				{
+					"ID": 17011,
+					"Login": "jskeet"
+				}
+			],
+			"Title": "monitored resource type \"container\" or \"gke_container\"?"
 		}
   ]
 }

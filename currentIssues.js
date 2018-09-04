@@ -16,7 +16,10 @@ function getIssueInfo(issue, callback){
   let repoName = issue.Repo
   let number = issue.IssueID
 
-  let url = `https://api.github.com/repos/${repoName}/issues/${number}?client_id=****&client_secret=****`
+  // ** let githubClientID = YOUR ID HERE
+  // ** let githubClientSecret = YOUR SECRET HERE
+
+  let url = `https://api.github.com/repos/${repoName}/issues/${number}?client_id=${githubClientID}&client_secret=${githubClientSecret}`
 
   axios.get(url).then(response => {
     callback(null,response);
@@ -32,8 +35,19 @@ function getIssueInfo(issue, callback){
  */
 function groupByLabel(issues) {
   let groups = {};
-  groups.totalIssues = issues.length
+  groups.unlabeledCount = 0;
+  groups.totalIssues = issues.length;
+
   issues.forEach(function (issue) {
+    console.log(issue.labels.length)
+    if(issue.labels == null) {
+      console.log("none!!")
+    }
+    // if(issue.labels.length == 0 || issue.labels == null){
+    //   console.log('NONE!!!')
+    //   groups.unlabeledCount += 1
+    // };
+
     issue.labels.forEach(function (label) {
       if (!groups.hasOwnProperty(label.name)) {
         groups[label.name] = {};
@@ -62,10 +76,9 @@ function getCollectionDetails(labelCollection) {
   let issueCount = labelCollection.totalIssues
   let labelCount = 0
 
-
-
   data.totalIssues = issueCount;
   data.percentages = {}
+  data.unlabeled = labelCollection.unlabeledCount
 
 
   Object.keys(labelCollection).forEach(function(label) {
@@ -119,7 +132,7 @@ async.each(issuesArray, function(issue, callback){
     info.issues = issueDetailsArray;
 
     let grouped = groupByLabel(issueDetailsArray)
-
+    // console.log(issueDetailsArray)
 
     let issueData = JSON.stringify(grouped);
     fs.writeFileSync(process.argv[3], issueData);
